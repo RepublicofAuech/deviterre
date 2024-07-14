@@ -1,25 +1,14 @@
 #!/usr/bin/env bash
-# exit on error
-set -o errexit
+# exit on errorset -o errexit
 
-# Install npm dependencies
 npm install
+# npm run build # uncomment if required
 
-# Set Puppeteer cache directory
-export PUPPETEER_CACHE_DIR=/opt/render/.cache/puppeteer
-mkdir -p $PUPPETEER_CACHE_DIR
-
-# Check if Puppeteer is already installed in the cache
-if [ -d "$PUPPETEER_CACHE_DIR/chrome" ]; then
-  echo "Puppeteer cache exists, copying to node_modules."
-  mkdir -p node_modules/puppeteer/.local-chromium
-  cp -r $PUPPETEER_CACHE_DIR/chrome/* node_modules/puppeteer/.local-chromium/
-else
-  echo "Installing Puppeteer."
-  npm install puppeteer
-  echo "Caching Puppeteer."
-  mkdir -p $PUPPETEER_CACHE_DIR/chrome
-  cp -r node_modules/puppeteer/.local-chromium/* $PUPPETEER_CACHE_DIR/chrome/
+# Store/pull Puppeteer cache with build cache
+if [[ ! -d $PUPPETEER_CACHE_DIR ]]; then 
+  echo "...Copying Puppeteer Cache from Build Cache" 
+  cp -R $XDG_CACHE_HOME/puppeteer/ $PUPPETEER_CACHE_DIR
+else 
+  echo "...Storing Puppeteer Cache in Build Cache" 
+  cp -R $PUPPETEER_CACHE_DIR $XDG_CACHE_HOME
 fi
-
-echo "Build script finished."
