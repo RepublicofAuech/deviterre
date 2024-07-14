@@ -10,6 +10,6 @@
   "dependencies": {
     "discord.js": "^14.x",
     "express": "^4.17.1",
-    "puppeteer": "^22.13.0" // Ensure Puppeteer is listed here
+    "puppeteer": "^22.13.0"
   }
 }
