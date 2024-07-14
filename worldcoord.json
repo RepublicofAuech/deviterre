@@ -75,6 +75,16 @@
         "answer": ["ロシア","モスクワ州","モスクワ"]
     },
     {
+        "link": "https://maps.app.goo.gl/2AtxdHyc3VbfVgq4A",
+        "location": "ウラジオストク（ロシア、沿海地方）",
+        "answer": ["ロシア","沿海地方","ウラジオストク"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/VL3y9ZmNWA2Eeqtj9",
+        "location": "ワルシャワ（ポーランド、マゾフシェ県）",
+        "answer": ["ポーランド","マゾフシェ県","ワルシャワ"]
+    },
+    {
         "link": "https://maps.app.goo.gl/LfUesSLAqKUA5c416",
         "location": "レイキャビク（アイスランド、首都地方）",
         "answer": ["アイスランド","首都地方","レイキャビク"]
@@ -140,6 +150,11 @@
         "answer": ["フランス", "イル・ド・フランス", "パリ" ]
     },
     {
+        "link": "https://maps.app.goo.gl/Vc1P2icaNvJmCwCq6",
+        "location": "コペンハーゲン（デンマーク、デンマーク首都地域）",
+        "answer": ["デンマーク", "デンマーク首都地域", "コペンハーゲン" ]
+    },
+    {
         "link": "https://maps.app.goo.gl/3c6uVMD9kDYKNmEK6",
         "location": "バルセロナ（スペイン、カタルーニャ州）",
         "answer": ["スペイン", "カタルーニャ州", "バルセロナ" ]
@@ -148,6 +163,16 @@
         "link": "https://maps.app.goo.gl/3c6uVMD9kDYKNmEK6",
         "location": "リスボン（ポルトガル、リスボン地方）",
         "answer": ["ポルトガル", "リスボン地方", "リスボン" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/KdWF2zdps6Es8Ztc6",
+        "location": "ブエノスアイレス（アルゼンチン、ブエノスアイレス自治市）",
+        "answer": ["アルゼンチン", "ブエノスアイレス自治市", "ブエノスアイレス" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/4nZUFzBPNmVmL8sJA",
+        "location": "サンティアゴ（チリ、首都州）",
+        "answer": ["チリ", "首都州", "サンティアゴ" ]
     },
     {
         "link": "https://maps.app.goo.gl/tPbupqaLLKKtszha6",
@@ -165,9 +190,24 @@
         "answer": ["イタリア", "ラツィオ州", "ローマ" ]
     },
     {
+        "link": "https://maps.app.goo.gl/pR6G7UR1D89xqz6r8",
+        "location": "シンガポール（都市国家）",
+        "answer": ["シンガポール"]
+    },
+    {
         "link": "https://maps.app.goo.gl/QfEXofV4KiMFyyvu8",
         "location": "ストックホルム（スウェーデン、ストックホルム県）",
         "answer": ["スウェーデン", "ストックホルム県", "ストックホルム" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/CKQs5HickC498VDR8",
+        "location": "ダブリン（アイルランド、ダブリン県）",
+        "answer": ["アイルランド", "ダブリン県", "ダブリン" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/3hCkjZMDsi1uP5Qw8",
+        "location": "ブリュッセル（ベルギー、ブリュッセル首都圏地域）",
+        "answer": ["ベルギー", "ブリュッセル首都圏地域", "ブリュッセル" ]
     },
     {
         "link": "https://maps.app.goo.gl/2hMgNFeMqo4PcuqD7",
@@ -178,6 +218,11 @@
         "link": "https://maps.app.goo.gl/Z5F1CWpYGabKgSREA",
         "location": "ワルシャワ（ポーランド、マゾフシェ県）",
         "answer": ["ポーランド", "マゾフシェ県", "ワルシャワ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/moHnQfya9RXPgDCf9",
+        "location": "クラクフ（ポーランド、マウォポルスカ県）",
+        "answer": ["ポーランド", "マウォポルスカ県", "クラクフ" ]
     },
     {
         "link": "https://maps.app.goo.gl/xdRdG7Y3DF8eoVBS7",
@@ -208,6 +253,21 @@
         "link": "https://maps.app.goo.gl/phx8EiRVrmopqFWu7",
         "location": "チューリッヒ（スイス、チューリッヒ州）",
         "answer": ["スイス", "チューリッヒ州", "チューリッヒ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/4Yn39zxPtwJNFoMt7",
+        "location": "ジャカルタ（インドネシア、ジャカルタ首都特別州）",
+        "answer": ["インドネシア", "ジャカルタ首都特別州", "ジャカルタ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/BwmS4bu8HLAP1k9fA",
+        "location": "クアラルンプール（マレーシア、クアラルンプール連邦直轄領）",
+        "answer": ["マレーシア", "クアラルンプール連邦直轄領", "クアラルンプール" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/gyytkYTkxEcr3WKi9",
+        "location": "マニラ（フィリピン、国家首都地方）",
+        "answer": ["フィリピン", "国家首都地方", "マニラ" ]
     },
     {
         "link": "https://maps.app.goo.gl/tHRU7rkuUn3B6HmP6",
