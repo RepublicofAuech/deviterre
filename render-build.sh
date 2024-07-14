@@ -1,20 +1,15 @@
 #!/usr/bin/env bash
-# Exit on errors
+# exit on error
 set -o errexit
 
-# Set the Puppeteer cache directory environment variable
-export PUPPETEER_CACHE_DIR=$PWD/puppeteer
-
-# Install dependencies
 npm install
+# npm run build # uncomment if required
 
 # Store/pull Puppeteer cache with build cache
-if [[ ! -d $PUPPETEER_CACHE_DIR ]]; then
-  echo "...Copying Puppeteer Cache from Build Cache"
-  mkdir -p $PUPPETEER_CACHE_DIR
+if [[ -d $XDG_CACHE_HOME/puppeteer ]]; then 
+  echo "...Copying Puppeteer Cache from Build Cache" 
   cp -R $XDG_CACHE_HOME/puppeteer/* $PUPPETEER_CACHE_DIR
-else
-  echo "...Storing Puppeteer Cache in Build Cache"
-  mkdir -p $XDG_CACHE_HOME/puppeteer
+else 
+  echo "...Storing Puppeteer Cache in Build Cache" 
   cp -R $PUPPETEER_CACHE_DIR/* $XDG_CACHE_HOME/puppeteer
 fi
