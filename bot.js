@@ -2,6 +2,8 @@ import { Client, GatewayIntentBits } from 'discord.js';
 import express from 'express';
 import { createServer } from 'http';
 import { registerCommands, handleCommand, handleGuess } from './commands.js';
+import puppeteer from 'puppeteer';
+import { execSync } from 'child_process';
 
 const client = new Client({
     intents: [
@@ -58,10 +60,6 @@ server.listen(port, () => {
 });
 
 // Ensure Puppeteer is installed and configured correctly
-// Add this line to handle Puppeteer setup if not already managed by Render
-const puppeteer = require('puppeteer');
-const { execSync } = require('child_process');
-
 async function ensurePuppeteer() {
     try {
         // Check if Puppeteer is installed
