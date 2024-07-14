@@ -1,15 +1,13 @@
-import puppeteer from 'puppeteer-core';
-import chromium from 'chrome-aws-lambda';
-import { promises as fs } from 'fs';
+import puppeteer from 'puppeteer';  // puppeteer に変更
 
 // ランダムなStreet Viewの画像を取得する関数
 export async function getRandomStreetViewImage(region) {
     const filePath = region === 'japan' ? 'japancoord.json' : 'worldcoord.json';
     const links = await loadLinksFromFile(filePath);
+
     const browser = await puppeteer.launch({
-        args: chromium.args,
-        executablePath: await chromium.executablePath,
-        headless: chromium.headless,
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
     const page = await browser.newPage();
 
