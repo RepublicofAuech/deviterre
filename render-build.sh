@@ -2,7 +2,11 @@
 # exit on error
 set -o errexit
 
+# Install npm dependencies
 npm install
+
+# Install Puppeteer
+npx puppeteer install
 
 # Store/pull Puppeteer cache with build cache
 if [[ -d $XDG_CACHE_HOME/puppeteer ]]; then
