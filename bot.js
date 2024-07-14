@@ -31,4 +31,4 @@ client.on('messageCreate', async message => {
     await handleGuess(message);
 });
 
-client.login("MTI2MDQ0MjQ3OTA3ODAxNTE0OA.GGk91t.KsdUiZ0BMDJJc-ToFEp8Bbfu8sMT8s7uquXIcE");
+client.login(process.env.TOKEN);
