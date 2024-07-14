@@ -1,8 +1,12 @@
 import { REST, Routes, EmbedBuilder } from 'discord.js';
 import { getRandomStreetViewImage } from './getStreetView.js';
 import { promises as fs } from 'fs';
+import dotenv from 'dotenv';
 
-// DiscordアプリケーションのクライアントIDとトークンを設定
+// 環境変数を読み込む
+dotenv.config();
+
+// 環境変数から設定を取得
 const CLIENT_ID = process.env.CLIENT_ID;
 const TOKEN = process.env.TOKEN;
 const ADMIN_ROLE_ID = process.env.ADMIN_ROLE_ID;
@@ -115,12 +119,23 @@ export async function registerCommands(client) {
 // スラッシュコマンドの処理を行う関数
 export async function handleCommand(interaction) {
     if (interaction.commandName === 'gamestart') {
-        await interaction.deferReply();
+        console.log('Handling /gamestart command.');
+
+        await interaction.deferReply(); // 処理中であることを通知するため
+
+        console.log('Reply deferred. Fetching street view image.');
 
         const region = interaction.options.getString('モード'); // 修正
 
         try {
+            // 画像を取得する前に「画像を準備中です」と返信
+            await interaction.editReply('画像を準備中です...');
+
+            // 画像の取得
             const { imagePath, link, location, answer } = await getRandomStreetViewImage(region);
+
+            console.log('Street view image fetched successfully.');
+
             const embed = new EmbedBuilder()
                 .setTitle('Deviterreの場所当てゲーム')
                 .setImage('attachment://streetview.png')
