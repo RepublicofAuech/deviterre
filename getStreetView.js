@@ -1,10 +1,10 @@
-import puppeteer from 'puppeteer';  // puppeteer に変更
+import puppeteer from 'puppeteer';
+import { promises as fs } from 'fs';
 
 // ランダムなStreet Viewの画像を取得する関数
 export async function getRandomStreetViewImage(region) {
     const filePath = region === 'japan' ? 'japancoord.json' : 'worldcoord.json';
     const links = await loadLinksFromFile(filePath);
-
     const browser = await puppeteer.launch({
         headless: true,
         args: ['--no-sandbox', '--disable-setuid-sandbox']
