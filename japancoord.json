@@ -9,6 +9,16 @@
         "location": "函館市（北海道）",
         "answer": ["東北", "北海道", "函館"]
     },
+  　{
+        "link": "https://maps.app.goo.gl/R5sNqtqn845vj8zV8",
+        "location": "帯広市（北海道）",
+        "answer": ["東北", "北海道", "帯広"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/anWvPjuwN4XZFLrF9",
+        "location": "八戸市（青森県）",
+        "answer": ["東北", "青森県", "八戸"]
+    },
     {
         "link": "https://maps.app.goo.gl/4C6sWyjRvQHDT81p9",
         "location": "墨田区（東京都）",
@@ -28,6 +38,11 @@
         "link": "https://maps.app.goo.gl/8R48LSEaHKZt3uWa6",
         "location": "浦安市（千葉県）",
         "answer": ["関東", "千葉県", "浦安"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/dRiVCjCPJGR1K5fR6",
+        "location": "千葉市（千葉県）",
+        "answer": ["関東", "千葉県", "千葉"]
     },
     {
         "link": "https://maps.app.goo.gl/Le7gDL1VycRt7shf9",
@@ -53,6 +68,11 @@
         "link": "https://maps.app.goo.gl/DpWBLzN8DicwV2n2A",
         "location": "金沢市（石川県）",
         "answer": ["中部","石川県","金沢"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/CWyj9SK4unvKs33F6",
+        "location": "福井市（福井県）",
+        "answer": ["中部","福井県","福井"]
     },
     {
         "link": "https://maps.app.goo.gl/mFghCU4zeje6V7D3A",
@@ -124,10 +144,25 @@
         "location": "伊勢市（三重県）",
         "answer": ["近畿","三重県","伊勢"]
     },
-        {
+    {
+        "link": "https://maps.app.goo.gl/Yv69McK8NpgRcM178",
+        "location": "四日市市（三重県）",
+        "answer": ["近畿","三重県","四日市"]
+    },
+    {
         "link": "https://maps.app.goo.gl/186PzpG9oNd9s9s58",
         "location": "大津市（滋賀県）",
         "answer": ["近畿","滋賀県","大津"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/FwJDryFce1Ts9bMF9",
+        "location": "奈良市（奈良県）",
+        "answer": ["近畿","奈良県","奈良"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/7uWCHu5xe8qzH4Wt6",
+        "location": "宇都宮市（栃木県）",
+        "answer": ["関東","栃木県","宇都宮"]
     },
     {
         "link": "https://maps.app.goo.gl/8wNfR5GpXAzpnA8L8",
@@ -158,6 +193,11 @@
         "link": "https://maps.app.goo.gl/ZQrRZZtVgPGzn7VQ8",
         "location": "福岡市（福岡県）",
         "answer": ["九州","福岡県","福岡"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/Gk8xdyARkh8ee95v7",
+        "location": "熊本市（熊本県）",
+        "answer": ["九州","熊本県","熊本"]
     },
     {
         "link": "https://maps.app.goo.gl/M81n22tduB5YunMeA",
