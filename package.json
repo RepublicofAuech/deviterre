@@ -8,9 +8,8 @@
     "start": "node bot.js"
   },
   "dependencies": {
-    "@turf/turf": "^7.0.0",
-    "discord.js": "^14.15.3",
-    "puppeteer": "^19.6.0",
-    "express": "^4.19.2"
+    "discord.js": "^14.x",
+    "express": "^4.17.1",
+    "puppeteer": "^22.13.0" // Ensure Puppeteer is listed here
   }
 }
