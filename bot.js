@@ -1,11 +1,13 @@
 import { Client, GatewayIntentBits } from 'discord.js';
 import { registerCommands, handleCommand, handleGuess } from './commands.js';
+import express from 'express';
+import { createServer } from 'http';
+import process from 'process';
 
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
         GatewayIntentBits.GuildMessages,
-        GatewayIntentBits.MessageContent,
         GatewayIntentBits.MessageContent
     ]
 });
@@ -32,3 +34,17 @@ client.on('messageCreate', async message => {
 });
 
 client.login(process.env.TOKEN);
+
+// Flaskサーバーの追加
+const app = express();
+
+app.get('/', (req, res) => {
+    res.send('Bot is running!');
+});
+
+const port = process.env.PORT || 3000;
+const server = createServer(app);
+
+server.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
+});
