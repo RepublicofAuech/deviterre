@@ -50,6 +50,11 @@
         "answer": ["カナダ","ケベック州","モントリオール"]
     },
     {
+        "link": "https://maps.app.goo.gl/7t7extaBx7B9MP3R9",
+        "location": "カルガリー（カナダ、アルバータ州）",
+        "answer": ["カナダ","アルバータ州","カルガリー"]
+    },
+    {
         "link": "https://maps.app.goo.gl/aCKWbgVf4UgBxA5T9",
         "location": "パナマシティ（パナマ、パナマ県）",
         "answer": ["パナマ","パナマ県","パナマシティ"]
@@ -140,6 +145,21 @@
         "answer": ["スペイン", "カタルーニャ州", "バルセロナ" ]
     },
     {
+        "link": "https://maps.app.goo.gl/3c6uVMD9kDYKNmEK6",
+        "location": "リスボン（ポルトガル、リスボン地方）",
+        "answer": ["ポルトガル", "リスボン地方", "リスボン" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/tPbupqaLLKKtszha6",
+        "location": "アムステルダム（オランダ、北ホラント州）",
+        "answer": ["オランダ", "北ホラント州", "アムステルダム" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/qBG6aeHC6vNvA1af9",
+        "location": "マドリード（スペイン、マドリード州）",
+        "answer": ["スペイン", "マドリード州", "マドリード" ]
+    },
+    {
         "link": "https://maps.app.goo.gl/8vpiM1E8KqCeMvgy7",
         "location": "ローマ（イタリア、ラツィオ州）",
         "answer": ["イタリア", "ラツィオ州", "ローマ" ]
@@ -170,6 +190,11 @@
         "answer": ["ドイツ", "ベルリン州", "ベルリン" ]
     },
     {
+        "link": "https://maps.app.goo.gl/J5fzey4uuavboS6J7",
+        "location": "フランクフルト（ドイツ、ヘッセン州）",
+        "answer": ["ドイツ", "ヘッセン州", "フランクフルト" ]
+    },
+    {
         "link": "https://maps.app.goo.gl/CikV5EXnJExMdSbU6",
         "location": "オークランド（ニュージーランド、オークランド地方）",
         "answer": ["ニュージーランド", "オークランド地方", "オークランド" ]
@@ -183,6 +208,11 @@
         "link": "https://maps.app.goo.gl/phx8EiRVrmopqFWu7",
         "location": "チューリッヒ（スイス、チューリッヒ州）",
         "answer": ["スイス", "チューリッヒ州", "チューリッヒ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/tHRU7rkuUn3B6HmP6",
+        "location": "アスタナ（カザフスタン、アクモラ州）",
+        "answer": ["カザフスタン", "アクモラ州", "アスタナ" ]
     },
     {
         "link": "https://maps.app.goo.gl/5gB4ysCYsUPRmNqV7",
@@ -205,7 +235,7 @@
         "answer": ["南アフリカ", "西ケープ州", "ケープタウン" ]
     },
     {
-        "link": "https://maps.app.goo.gl/TaKpK7VJdjCgfAH87",
+        "link": "https://maps.app.goo.gl/nLR9qLCN4x8KFryD6",
         "location": "ヨハネスブルグ（南アフリカ、ハウテン州）",
         "answer": ["南アフリカ", "ハウテン州", "ヨハネスブルグ" ]
     },
@@ -238,6 +268,31 @@
         "link": "https://maps.app.goo.gl/ZzAYdSbZJnL1BDz5A",
         "location": "ニューデリー（インド、デリー）",
         "answer": ["インド", "デリー", "ニューデリー"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/m19ucBNSoNE28oCeA",
+        "location": "ラパス（ボリビア、ラパス県）",
+        "answer": ["ボリビア", "ラパス県", "ラパス"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/Esbj178e7C8oJoqW7",
+        "location": "ダッカ（バングラデシュ、ダッカ管区）",
+        "answer": ["バングラデシュ", "ダッカ管区", "ダッカ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/uprdMnqQhExXd3Ac7",
+        "location": "ウランバートル（モンゴル、ウランバートル市）",
+        "answer": ["モンゴル", "ウランバートル市", "ウランバートル"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/GHHRyit7Hd6BTHSM6",
+        "location": "キト（エクアドル、ピチンチャ県）",
+        "answer": ["エクアドル", "ピチンチャ県", "キト"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/QAdvp4VuVenEKzpL7",
+        "location": "九龍（中国、香港）",
+        "answer": ["中国", "香港", "九龍"]
     },
     {
         "link": "https://maps.app.goo.gl/JTtLmv9FRMdAETHK8",
