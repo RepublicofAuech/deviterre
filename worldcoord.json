@@ -15,6 +15,16 @@
         "answer": ["アメリカ","アラスカ州","アンカレジ"]
     },
     {
+        "link": "https://maps.app.goo.gl/chg3UP7JndHTDboW7",
+        "location": "マイアミ（アメリカ、フロリダ州）",
+        "answer": ["アメリカ","フロリダ州","マイアミ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/1a7CtoSnZeYMMfMr8",
+        "location": "ホノルル（アメリカ、ハワイ州）",
+        "answer": ["アメリカ","ハワイ州","ホノルル"]
+    },
+    {
         "link": "https://maps.app.goo.gl/cZySh1CY3CzUazpU8",
         "location": "シアトル（アメリカ、ワシントン州）",
         "answer": ["アメリカ","ワシントン州","シアトル"]
@@ -65,6 +75,11 @@
         "answer": ["ペルー","リマ県","リマ"]
     },
     {
+        "link": "https://maps.app.goo.gl/UrNQSJ56DVqTDjm89",
+        "location": "クスコ（ペルー、クスコ県）",
+        "answer": ["ペルー","クスコ県","クスコ"]
+    },
+    {
         "link": "https://maps.app.goo.gl/txTLBg3aR9YFtCP67",
         "location": "サンクトペテルブルク（ロシア、レニングラード州）",
         "answer": ["ロシア","レニングラード州","サンクトペテルブルク"]
@@ -105,6 +120,11 @@
         "answer": ["ブラジル","サンパウロ州","サンパウロ"]
     },
     {
+        "link": "https://maps.app.goo.gl/UsW7MuPeJJUB9teD6",
+        "location": "ブラジリア（ブラジル、ブラジリア連邦直轄区）",
+        "answer": ["ブラジル","ブラジリア連邦直轄区","ブラジリア"]
+    },
+    {
         "link": "https://maps.app.goo.gl/nR6yBTaw37jgxkx9A",
         "location": "シドニー（オーストラリア、ニューサウスウェールズ州）",
         "answer": ["オーストラリア","ニューサウスウェールズ州","シドニー"]
@@ -125,6 +145,11 @@
         "answer": ["イスラエル","テルアビブ地区","テルアビブ"]
     },
     {
+        "link": "https://maps.app.goo.gl/6t449zwCQbYmQ7Jv6",
+        "location": "エルサレム（イスラエル、エルサレム地区）",
+        "answer": ["イスラエル","エルサレム地区","エルサレム"]
+    },
+    {
         "link": "https://maps.app.goo.gl/2b6Zpiykhc6HCRyg6",
         "location": "ラゴス（ナイジェリア、ラゴス州）",
         "answer": ["ナイジェリア","ラゴス州","ラゴス"]
@@ -138,6 +163,11 @@
         "link": "https://maps.app.goo.gl/bCHoQi8Ra4hyPcwWA",
         "location": "ロンドン（イギリス、イングランド）",
         "answer": ["イギリス","イングランド","ロンドン"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/kvg25mbcAHWWm7ye6",
+        "location": "ブカレスト（ルーマニア、ブカレスト市）",
+        "answer": ["ルーマニア","ブカレスト市","ブカレスト"]
     },
     {
         "link": "https://maps.app.goo.gl/tNC4ZxgMsys9Wzxq9",
@@ -185,14 +215,39 @@
         "answer": ["スペイン", "マドリード州", "マドリード" ]
     },
     {
+        "link": "https://maps.app.goo.gl/13wu3h2dp5YANh2k6",
+        "location": "ザグレブ（クロアチア、ザグレブ郡）",
+        "answer": ["クロアチア", "ザグレブ郡", "ザグレブ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/cvY7NS1DiYHV4uZ2A",
+        "location": "ウィーン（オーストリア、ウィーン州）",
+        "answer": ["オーストリア", "ウィーン州", "ウィーン" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/3xUnE41cxxLZ9Xd96",
+        "location": "リュブリャナ（スロベニア、リュブリャナ特別市）",
+        "answer": ["スロベニア","リュブリャナ特別市", "リュブリャナ" ]
+    },
+    {
         "link": "https://maps.app.goo.gl/8vpiM1E8KqCeMvgy7",
         "location": "ローマ（イタリア、ラツィオ州）",
         "answer": ["イタリア", "ラツィオ州", "ローマ" ]
     },
     {
+        "link": "https://maps.app.goo.gl/QKZb3jSCcVqGkkso7",
+        "location": "ヴェネツィア（イタリア、ヴェネト州）",
+        "answer": ["イタリア", "ヴェネト州", "ヴェネツィア" ]
+    },
+    {
         "link": "https://maps.app.goo.gl/pR6G7UR1D89xqz6r8",
         "location": "シンガポール（都市国家）",
         "answer": ["シンガポール"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/xwCC7KUrWdLgTz469",
+        "location": "モナコ（都市国家）",
+        "answer": ["モナコ"]
     },
     {
         "link": "https://maps.app.goo.gl/QfEXofV4KiMFyyvu8",
@@ -243,6 +298,11 @@
         "link": "https://maps.app.goo.gl/CikV5EXnJExMdSbU6",
         "location": "オークランド（ニュージーランド、オークランド地方）",
         "answer": ["ニュージーランド", "オークランド地方", "オークランド" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/ueQkTFWV9X4hTY727",
+        "location": "ウェリントン（ニュージーランド、ウェリントン地方）",
+        "answer": ["ニュージーランド", "ウェリントン地方", "ウェリントン" ]
     },
     {
         "link": "https://maps.app.goo.gl/5rmPMuEYCGEjGJzU9",
@@ -315,14 +375,29 @@
         "answer": ["タイ", "バンコク都", "バンコク"]
     },
     {
+        "link": "https://maps.app.goo.gl/rpeCAFDPcRetFvgK6",
+        "location": "プノンペン（カンボジア、プノンペン都）",
+        "answer": ["カンボジア", "プノンペン都", "プノンペン"]
+    },
+    {
         "link": "https://maps.app.goo.gl/39ZRnj53oJ7QXPmG9",
         "location": "ソウル（韓国、ソウル特別市）",
         "answer": ["韓国", "ソウル特別市", "ソウル"]
     },
     {
+        "link": "https://maps.app.goo.gl/zMA8FheneDPeUTfF7",
+        "location": "釜山（韓国、釜山広域市）",
+        "answer": ["韓国", "釜山広域市", "釜山"]
+    },
+    {
         "link": "https://maps.app.goo.gl/oaTucjhhTnwuwH2x7",
         "location": "ムンバイ（インド、マハラシュトラ州）",
         "answer": ["インド", "マハラシュトラ州", "ムンバイ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/mXecasDwfSaYhRuW9",
+        "location": "ベンガルール（インド、カルナータカ州）",
+        "answer": ["インド", "カルナータカ州", "ベンガルール"]
     },
     {
         "link": "https://maps.app.goo.gl/ZzAYdSbZJnL1BDz5A",
@@ -348,6 +423,16 @@
         "link": "https://maps.app.goo.gl/GHHRyit7Hd6BTHSM6",
         "location": "キト（エクアドル、ピチンチャ県）",
         "answer": ["エクアドル", "ピチンチャ県", "キト"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/oPCHhDqTWidKfBzv9",
+        "location": "ボゴタ（コロンビア、ボゴタ首都地域）",
+        "answer": ["コロンビア", "ボゴタ首都地域", "ボゴタ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/XtBa7oV9VBEt5yEt9",
+        "location": "バレッタ（マルタ、南東地域）",
+        "answer": ["マルタ", "南東地域", "バレッタ"]
     },
     {
         "link": "https://maps.app.goo.gl/QAdvp4VuVenEKzpL7",
