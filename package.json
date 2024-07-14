@@ -5,7 +5,9 @@
   "main": "bot.js",
   "type": "module",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "build": "npm install",
+    "postinstall": "npx puppeteer browsers install chrome"
   },
   "dependencies": {
     "@turf/turf": "^7.0.0",
