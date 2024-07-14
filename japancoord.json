@@ -124,6 +124,11 @@
         "location": "伊勢市（三重県）",
         "answer": ["近畿","三重県","伊勢"]
     },
+        {
+        "link": "https://maps.app.goo.gl/186PzpG9oNd9s9s58",
+        "location": "大津市（滋賀県）",
+        "answer": ["近畿","滋賀県","大津"]
+    },
     {
         "link": "https://maps.app.goo.gl/8wNfR5GpXAzpnA8L8",
         "location": "札幌市（北海道）",
@@ -135,9 +140,19 @@
         "answer": ["東北","北海道","稚内"]
     },
     {
+        "link": "https://maps.app.goo.gl/2BnhCNjRmpKbzHiF7",
+        "location": "郡山市（福島県）",
+        "answer": ["東北","福島県","郡山"]
+    },
+    {
         "link": "https://maps.app.goo.gl/mvU8DmALKDeLnoak7",
         "location": "那覇市（沖縄県）",
         "answer": ["九州","沖縄県","那覇"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/ohErX61K6BiuSefR7",
+        "location": "長崎市（長崎県）",
+        "answer": ["九州","長崎県","長崎"]
     },
     {
         "link": "https://maps.app.goo.gl/ZQrRZZtVgPGzn7VQ8",
