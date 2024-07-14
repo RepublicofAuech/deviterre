@@ -5,9 +5,24 @@
         "answer": ["関東", "東京都", "千代田"]
     },
     {
+        "link": "https://maps.app.goo.gl/UpH2hdRRsu912cJU7",
+        "location": "渋谷区（東京都）",
+        "answer": ["関東", "東京都", "渋谷"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/izPTsBgS5FpiB5ME8",
+        "location": "港区（東京都）",
+        "answer": ["関東", "東京都", "港"]
+    },
+    {
         "link": "https://maps.app.goo.gl/oFMRcPWbUwQk5Ye26",
         "location": "函館市（北海道）",
         "answer": ["東北", "北海道", "函館"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/zHvy3GtHe7XJZgc87",
+        "location": "旭川市（北海道）",
+        "answer": ["東北", "北海道", "旭川"]
     },
   　{
         "link": "https://maps.app.goo.gl/R5sNqtqn845vj8zV8",
@@ -35,14 +50,29 @@
         "answer": ["関東", "埼玉県", "さいたま"]
     },
     {
+        "link": "https://maps.app.goo.gl/xs3aBngL3VVRFfEN8",
+        "location": "川越市（埼玉県）",
+        "answer": ["関東", "埼玉県", "川越"]
+    },
+    {
         "link": "https://maps.app.goo.gl/8R48LSEaHKZt3uWa6",
         "location": "浦安市（千葉県）",
         "answer": ["関東", "千葉県", "浦安"]
     },
     {
+        "link": "https://maps.app.goo.gl/p1aAJ9eLWepTU1iL7",
+        "location": "高崎市（群馬県）",
+        "answer": ["関東", "群馬県", "高崎"]
+    },
+    {
         "link": "https://maps.app.goo.gl/dRiVCjCPJGR1K5fR6",
         "location": "千葉市（千葉県）",
         "answer": ["関東", "千葉県", "千葉"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/X6y4g4pXgZDNZ8yN7",
+        "location": "水戸市（茨城県）",
+        "answer": ["関東", "茨城県", "水戸"]
     },
     {
         "link": "https://maps.app.goo.gl/Le7gDL1VycRt7shf9",
@@ -135,6 +165,16 @@
         "answer": ["中国","山口県","下関"]
     },
     {
+        "link": "https://maps.app.goo.gl/zV9YBTw6LcPdMgcF6",
+        "location": "松江市（島根県）",
+        "answer": ["中国","島根県","松江"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/h9EESNh37yxFLFw8A",
+        "location": "出雲市（島根県）",
+        "answer": ["中国","島根県","出雲"]
+    },
+    {
         "link": "https://maps.app.goo.gl/CBDEmoVBf4NSPpAq6",
         "location": "鳥取市（鳥取県）",
         "answer": ["中国","鳥取県","鳥取"]
@@ -153,6 +193,11 @@
         "link": "https://maps.app.goo.gl/186PzpG9oNd9s9s58",
         "location": "大津市（滋賀県）",
         "answer": ["近畿","滋賀県","大津"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/C8oawyoojybwco218",
+        "location": "和歌山市（和歌山県）",
+        "answer": ["近畿","和歌山県","和歌山"]
     },
     {
         "link": "https://maps.app.goo.gl/FwJDryFce1Ts9bMF9",
