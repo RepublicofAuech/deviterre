@@ -1,10 +1,6 @@
 import { REST, Routes, EmbedBuilder } from 'discord.js';
 import { getRandomStreetViewImage } from './getStreetView.js';
 import { promises as fs } from 'fs';
-import dotenv from 'dotenv';
-
-// 環境変数を読み込む
-dotenv.config();
 
 // 環境変数から設定を取得
 const CLIENT_ID = process.env.CLIENT_ID;
