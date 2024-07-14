@@ -1,0 +1,152 @@
+[
+    {
+        "link": "https://maps.app.goo.gl/fkEC1RFDgpu3irVK7",
+        "location": "千代田区（東京都）",
+        "answer": ["関東", "東京都", "千代田"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/oFMRcPWbUwQk5Ye26",
+        "location": "函館市（北海道）",
+        "answer": ["東北", "北海道", "函館"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/4C6sWyjRvQHDT81p9",
+        "location": "墨田区（東京都）",
+        "answer": ["関東", "東京都", "墨田"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/359dTbHEoLJM5rwp9",
+        "location": "横浜市（神奈川県）",
+        "answer": ["関東", "神奈川県", "横浜"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/f1Vem2eDAyRQ3PHh9",
+        "location": "さいたま市（埼玉県）",
+        "answer": ["関東", "埼玉県", "さいたま"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/8R48LSEaHKZt3uWa6",
+        "location": "浦安市（千葉県）",
+        "answer": ["関東", "千葉県", "浦安"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/Le7gDL1VycRt7shf9",
+        "location": "越谷市（埼玉県）",
+        "answer": ["関東", "埼玉県", "越谷"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/D4qimoTNSujs7Bzi8",
+        "location": "大阪市（大阪府）",
+        "answer": ["近畿","大阪府","大阪"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/sFjwohCCUrcgfzNo7",
+        "location": "京都市（京都府）",
+        "answer": ["近畿","京都府","京都"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/sWziYWhhszbF6ZVCA",
+        "location": "浜松市（静岡県）",
+        "answer": ["中部","静岡県","浜松"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/DpWBLzN8DicwV2n2A",
+        "location": "金沢市（石川県）",
+        "answer": ["中部","石川県","金沢"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/mFghCU4zeje6V7D3A",
+        "location": "新潟市（新潟県）",
+        "answer": ["中部","新潟県","新潟"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/JZaejvADqJgyjYEZ8",
+        "location": "佐渡市（新潟県）",
+        "answer": ["中部","新潟県","佐渡"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/1ZBTgoWmA54zcXBT7",
+        "location": "名古屋市（愛知県）",
+        "answer": ["中部","愛知県","名古屋"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/kuoS2j2FthU9sMx49",
+        "location": "安城市（愛知県）",
+        "answer": ["中部","愛知県","安城"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/SBEt4uFVLMpVJMvz5",
+        "location": "豊田市（愛知県）",
+        "answer": ["中部","愛知県","豊田"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/BHHP2TearqxzHUNN8",
+        "location": "富山市（富山県）",
+        "answer": ["中部","富山県","富山"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/S6hGxoRDBJH3Yoy18",
+        "location": "神戸市（兵庫県）",
+        "answer": ["近畿","兵庫県","神戸"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/TXj2FPw4DuJYzqVs9",
+        "location": "湖西市（静岡県）",
+        "answer": ["中部","静岡県","湖西"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/yDdrzGrFRYonu5pc7",
+        "location": "高松市（香川県）",
+        "answer": ["四国","香川県","高松"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/ZuDWKzQKGgjBsdWr7",
+        "location": "松山市（愛媛県）",
+        "answer": ["四国","愛媛県","松山"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/9cN7ttYCJyBXTDAk6",
+        "location": "広島市（広島県）",
+        "answer": ["中国","広島県","広島"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/sozJGt4kPaofNyDr9",
+        "location": "下関市（山口県）",
+        "answer": ["中国","山口県","下関"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/CBDEmoVBf4NSPpAq6",
+        "location": "鳥取市（鳥取県）",
+        "answer": ["中国","鳥取県","鳥取"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/nsjvUfVXT67vrdz87",
+        "location": "伊勢市（三重県）",
+        "answer": ["近畿","三重県","伊勢"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/8wNfR5GpXAzpnA8L8",
+        "location": "札幌市（北海道）",
+        "answer": ["東北","北海道","札幌"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/AXHVLubhNj4j9L3p7",
+        "location": "稚内市（北海道）",
+        "answer": ["東北","北海道","稚内"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/mvU8DmALKDeLnoak7",
+        "location": "那覇市（沖縄県）",
+        "answer": ["九州","沖縄県","那覇"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/ZQrRZZtVgPGzn7VQ8",
+        "location": "福岡市（福岡県）",
+        "answer": ["九州","福岡県","福岡"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/M81n22tduB5YunMeA",
+        "location": "鹿児島市（鹿児島県）",
+        "answer": ["九州","鹿児島県","鹿児島"]
+    }
+]

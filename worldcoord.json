@@ -1,0 +1,267 @@
+[
+    {
+        "link": "https://maps.app.goo.gl/Px5PWcXXHM5fHTky5",
+        "location": "ニューヨーク（アメリカ、ニューヨーク州）",
+        "answer": ["アメリカ","ニューヨーク州","ニューヨーク"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/vxVLRzfv1G7MyFV89",
+        "location": "ヒューストン（アメリカ、テキサス州）",
+        "answer": ["アメリカ","テキサス州","ヒューストン"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/bTkvZcvWHQhfAPUb9",
+        "location": "アンカレジ（アメリカ、アラスカ州）",
+        "answer": ["アメリカ","アラスカ州","アンカレジ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/cZySh1CY3CzUazpU8",
+        "location": "シアトル（アメリカ、ワシントン州）",
+        "answer": ["アメリカ","ワシントン州","シアトル"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/Tvbdr7xYEcvRo6Nd8",
+        "location": "ロサンゼルス（アメリカ、カリフォルニア州）",
+        "answer": ["アメリカ","カリフォルニア州","ロサンゼルス"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/if24ckgTfcUxnXcv8",
+        "location": "サンフランシスコ（アメリカ、カリフォルニア州）",
+        "answer": ["アメリカ","カリフォルニア州","サンフランシスコ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/FgP4os9AGB9TzZtz8",
+        "location": "台北（台湾、台北市）",
+        "answer": ["台湾","台北市","台北"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/eTZeGw1GnVLoxHy58",
+        "location": "シカゴ（アメリカ、イリノイ州）",
+        "answer": ["アメリカ","イリノイ州","シカゴ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/C34d5DSfKvFaMLC39",
+        "location": "トロント（カナダ、オンタリオ州）",
+        "answer": ["カナダ","オンタリオ州","トロント"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/fMrFfW1ZB9Q4hwdp8",
+        "location": "モントリオール（カナダ、ケベック州）",
+        "answer": ["カナダ","ケベック州","モントリオール"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/aCKWbgVf4UgBxA5T9",
+        "location": "パナマシティ（パナマ、パナマ県）",
+        "answer": ["パナマ","パナマ県","パナマシティ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/z6LHSWGq2jzuvNU58",
+        "location": "リマ（ペルー、リマ県）",
+        "answer": ["ペルー","リマ県","リマ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/txTLBg3aR9YFtCP67",
+        "location": "サンクトペテルブルク（ロシア、レニングラード州）",
+        "answer": ["ロシア","レニングラード州","サンクトペテルブルク"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/PZdTS6gDEohdDjxg7",
+        "location": "モスクワ（ロシア、モスクワ州）",
+        "answer": ["ロシア","モスクワ州","モスクワ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/LfUesSLAqKUA5c416",
+        "location": "レイキャビク（アイスランド、首都地方）",
+        "answer": ["アイスランド","首都地方","レイキャビク"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/QPH9eD7GxYdZNbWv9",
+        "location": "バンクーバー（カナダ、ブリティッシュコロンビア州）",
+        "answer": ["カナダ","ブリティッシュコロンビア州","バンクーバー"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/avfGGa2VDbT5iKpq9",
+        "location": "リオデジャネイロ（ブラジル、リオデジャネイロ州）",
+        "answer": ["ブラジル","リオデジャネイロ州","リオデジャネイロ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/q2V2eTgUrNrpwkoZA",
+        "location": "サンパウロ（ブラジル、サンパウロ州）",
+        "answer": ["ブラジル","サンパウロ州","サンパウロ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/nR6yBTaw37jgxkx9A",
+        "location": "シドニー（オーストラリア、ニューサウスウェールズ州）",
+        "answer": ["オーストラリア","ニューサウスウェールズ州","シドニー"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/cJMdpZ4WoSyrqFqYA",
+        "location": "メルボルン（オーストラリア、ビクトリア州）",
+        "answer": ["オーストラリア","ビクトリア州","メルボルン"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/iLbZjzvFnmGomek76",
+        "location": "ドーハ（カタール、ドーハ基礎自治体）",
+        "answer": ["カタール","ドーハ基礎自治体","ドーハ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/kBUdcZDXUZHfVSCcA",
+        "location": "テルアビブ（イスラエル、テルアビブ地区）",
+        "answer": ["イスラエル","テルアビブ地区","テルアビブ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/2b6Zpiykhc6HCRyg6",
+        "location": "ラゴス（ナイジェリア、ラゴス州）",
+        "answer": ["ナイジェリア","ラゴス州","ラゴス"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/XRz5Z7jLHWX3eC1D6",
+        "location": "ドバイ（アラブ首長国連邦、ドバイ首長国）",
+        "answer": ["アラブ首長国連邦","ドバイ首長国","ドバイ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/bCHoQi8Ra4hyPcwWA",
+        "location": "ロンドン（イギリス、イングランド）",
+        "answer": ["イギリス","イングランド","ロンドン"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/tNC4ZxgMsys9Wzxq9",
+        "location": "グラスゴー（イギリス、スコットランド）",
+        "answer": ["イギリス","スコットランド","グラスゴー"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/W9hNRRiYxfHgEHXb9",
+        "location": "パリ（フランス、イル・ド・フランス）",
+        "answer": ["フランス", "イル・ド・フランス", "パリ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/3c6uVMD9kDYKNmEK6",
+        "location": "バルセロナ（スペイン、カタルーニャ州）",
+        "answer": ["スペイン", "カタルーニャ州", "バルセロナ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/8vpiM1E8KqCeMvgy7",
+        "location": "ローマ（イタリア、ラツィオ州）",
+        "answer": ["イタリア", "ラツィオ州", "ローマ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/QfEXofV4KiMFyyvu8",
+        "location": "ストックホルム（スウェーデン、ストックホルム県）",
+        "answer": ["スウェーデン", "ストックホルム県", "ストックホルム" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/2hMgNFeMqo4PcuqD7",
+        "location": "ヘルシンキ（フィンランド、ウーシマー県）",
+        "answer": ["フィンランド", "ウーシマー県", "ヘルシンキ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/Z5F1CWpYGabKgSREA",
+        "location": "ワルシャワ（ポーランド、マゾフシェ県）",
+        "answer": ["ポーランド", "マゾフシェ県", "ワルシャワ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/xdRdG7Y3DF8eoVBS7",
+        "location": "オスロ（ノルウェー、オスロ県）",
+        "answer": ["ノルウェー", "オスロ県", "オスロ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/WAfGjR8wZfDGuZp59",
+        "location": "ベルリン（ドイツ、ベルリン州）",
+        "answer": ["ドイツ", "ベルリン州", "ベルリン" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/CikV5EXnJExMdSbU6",
+        "location": "オークランド（ニュージーランド、オークランド地方）",
+        "answer": ["ニュージーランド", "オークランド地方", "オークランド" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/5rmPMuEYCGEjGJzU9",
+        "location": "ピサ（イタリア、トスカーナ州）",
+        "answer": ["イタリア", "トスカーナ州", "ピサ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/phx8EiRVrmopqFWu7",
+        "location": "チューリッヒ（スイス、チューリッヒ州）",
+        "answer": ["スイス", "チューリッヒ州", "チューリッヒ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/5gB4ysCYsUPRmNqV7",
+        "location": "イスタンブール（トルコ、イスタンブール県）",
+        "answer": ["トルコ", "イスタンブール県", "イスタンブール" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/Rc7HXegwZqVDCCmH8",
+        "location": "メキシコシティ（メキシコ、メキシコシティ州）",
+        "answer": ["メキシコ", "メキシコシティ州", "メキシコシティ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/q9BpJqE83LW6zLt29",
+        "location": "アテネ（ギリシャ、アッティカ県）",
+        "answer": ["ギリシャ", "アッティカ県", "アテネ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/TaKpK7VJdjCgfAH87",
+        "location": "ケープタウン（南アフリカ、西ケープ州）",
+        "answer": ["南アフリカ", "西ケープ州", "ケープタウン" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/TaKpK7VJdjCgfAH87",
+        "location": "ヨハネスブルグ（南アフリカ、ハウテン州）",
+        "answer": ["南アフリカ", "ハウテン州", "ヨハネスブルグ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/z6ZUjC43SHF8Qrva9",
+        "location": "ナイロビ（ケニア、ナイロビ州）",
+        "answer": ["ケニア", "ナイロビ州", "ナイロビ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/D5nqJyijcWwhKA3m9",
+        "location": "キガリ（ルワンダ、キガリ州）",
+        "answer": ["ルワンダ", "キガリ州", "キガリ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/qXpj8bns2ZY5MZXB6",
+        "location": "バンコク（タイ、バンコク都）",
+        "answer": ["タイ", "バンコク都", "バンコク"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/39ZRnj53oJ7QXPmG9",
+        "location": "ソウル（韓国、ソウル特別市）",
+        "answer": ["韓国", "ソウル特別市", "ソウル"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/oaTucjhhTnwuwH2x7",
+        "location": "ムンバイ（インド、マハラシュトラ州）",
+        "answer": ["インド", "マハラシュトラ州", "ムンバイ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/ZzAYdSbZJnL1BDz5A",
+        "location": "ニューデリー（インド、デリー）",
+        "answer": ["インド", "デリー", "ニューデリー"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/JTtLmv9FRMdAETHK8",
+        "location": "当別町（日本、北海道）",
+        "answer": ["日本", "北海道", "当別" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/sc98xMvJB5E2CyFx6",
+        "location": "伊豆市（日本、静岡県）",
+        "answer": ["日本", "静岡県", "伊豆"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/9wzArKSZ6LjniRF57",
+        "location": "大阪市（日本、大阪府）",
+        "answer": ["日本", "大阪府", "大阪"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/QTPz2zQHXWJ644KUA",
+        "location": "港区（日本、東京都）",
+        "answer": ["日本", "東京都", "港"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/4S3q8qwZREp8VLR28",
+        "location": "仙台市（日本、宮城県）",
+        "answer": ["日本", "宮城県", "仙台"]
+    }
+]
