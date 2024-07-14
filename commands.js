@@ -116,7 +116,7 @@ export async function registerCommands(client) {
 export async function handleCommand(interaction) {
     if (interaction.commandName === 'gamestart') {
         // ゲームがすでに進行中であるか確認
-        if (currentQuestionMessage) {
+        if (currentQuestionMessage && !correctUser) {
             await interaction.reply('もうすでに始まっています');
             return;
         }
@@ -258,6 +258,9 @@ export async function handleGuess(message) {
                 .setDescription(`${correctUser}さんが一番最初に正解したよ！\n__**答えはここ： ${currentLocation}**__\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`);
 
             await message.channel.send({ embeds: [embed] });
+
+            // ゲームが終了したため、currentQuestionMessageをnullにリセット
+            currentQuestionMessage = null;
 
             console.log(`Correct answer by ${correctUser.tag}: ${message.content}`);
         } else {
