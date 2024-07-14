@@ -1,6 +1,10 @@
 import { REST, Routes, EmbedBuilder } from 'discord.js';
 import { getRandomStreetViewImage } from './getStreetView.js';
 import { promises as fs } from 'fs';
+import dotenv from 'dotenv';
+
+// 環境変数を読み込む
+dotenv.config();
 
 // 環境変数から設定を取得
 const CLIENT_ID = process.env.CLIENT_ID;
@@ -115,11 +119,13 @@ export async function registerCommands(client) {
 // スラッシュコマンドの処理を行う関数
 export async function handleCommand(interaction) {
     if (interaction.commandName === 'gamestart') {
-        console.log('Handling /gamestart command.');
+        // ゲームがすでに進行中であるか確認
+        if (currentQuestionMessage) {
+            await interaction.reply('もうすでに始まっています');
+            return;
+        }
 
         await interaction.deferReply(); // 処理中であることを通知するため
-
-        console.log('Reply deferred. Fetching street view image.');
 
         const region = interaction.options.getString('モード'); // 修正
 
