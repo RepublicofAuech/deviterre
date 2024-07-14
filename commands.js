@@ -3,9 +3,9 @@ import { getRandomStreetViewImage } from './getStreetView.js';
 import { promises as fs } from 'fs';
 
 // DiscordアプリケーションのクライアントIDとトークンを設定
-const CLIENT_ID = '1260442479078015148';
-const TOKEN = 'MTI2MDQ0MjQ3OTA3ODAxNTE0OA.GGk91t.KsdUiZ0BMDJJc-ToFEp8Bbfu8sMT8s7uquXIcE';
-const ADMIN_ROLE_ID = "1257675417746149446";
+const CLIENT_ID = process.env.CLIENT_ID;
+const TOKEN = process.env.TOKEN;
+const ADMIN_ROLE_ID = process.env.ADMIN_ROLE_ID;
 
 let currentAnswers = null;
 let correctUser = null;
