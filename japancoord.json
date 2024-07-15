@@ -15,6 +15,11 @@
         "answer": ["関東", "東京", "港"]
     },
     {
+        "link": "https://maps.app.goo.gl/NfjsBBHw16oTiJAX9",
+        "location": "小笠原村（東京都）",
+        "answer": ["関東", "東京", "小笠原"]
+    },
+    {
         "link": "https://maps.app.goo.gl/rknUYJzDGTdpggEM8",
         "location": "品川区（東京都）",
         "answer": ["関東", "東京", "品川"]
@@ -145,6 +150,11 @@
         "answer": ["関東", "神奈川", "川崎"]
     },
     {
+        "link": "https://maps.app.goo.gl/6J8Vs8VYw9B2fJLSA",
+        "location": "相模原市（神奈川県）",
+        "answer": ["関東", "神奈川", "相模原"]
+    },
+    {
         "link": "https://maps.app.goo.gl/f1Vem2eDAyRQ3PHh9",
         "location": "さいたま市（埼玉県）",
         "answer": ["関東", "埼玉", "さいたま"]
@@ -208,6 +218,16 @@
         "link": "https://maps.app.goo.gl/D4qimoTNSujs7Bzi8",
         "location": "大阪市（大阪府）",
         "answer": ["近畿","大阪府","大阪"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/ojokkuhS4mKfgWnr7",
+        "location": "枚方市（大阪府）",
+        "answer": ["近畿","大阪","枚方"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/gQjvpLaxFadP2T9b9",
+        "location": "堺市（大阪府）",
+        "answer": ["近畿","大阪","堺"]
     },
     {
         "link": "https://maps.app.goo.gl/sFjwohCCUrcgfzNo7",
@@ -440,6 +460,11 @@
         "answer": ["近畿","奈良県","奈良"]
     },
     {
+        "link": "https://maps.app.goo.gl/ERgZx3dQNtihZbS89",
+        "location": "橿原市（奈良県）",
+        "answer": ["近畿","奈良県","橿原"]
+    },
+    {
         "link": "https://maps.app.goo.gl/7uWCHu5xe8qzH4Wt6",
         "location": "宇都宮市（栃木県）",
         "answer": ["関東","栃木","宇都宮"]
@@ -518,6 +543,11 @@
         "link": "https://maps.app.goo.gl/7J6Fj6McxAQdHeJr9",
         "location": "佐賀市（佐賀県）",
         "answer": ["九州","佐賀県","佐賀"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/FK2JaWYSBL4GMonj8",
+        "location": "伊万里市（佐賀県）",
+        "answer": ["九州","佐賀","伊万里"]
     },
     {
         "link": "https://maps.app.goo.gl/Gk8xdyARkh8ee95v7",
