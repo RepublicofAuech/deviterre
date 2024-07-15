@@ -95,6 +95,21 @@
         "answer": ["ロシア","ウラジオストク"]
     },
     {
+        "link": "https://maps.app.goo.gl/YJ6N4aX28haczS1D7",
+        "location": "イルクーツク（ロシア）",
+        "answer": ["ロシア","イルクーツク"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/bzBhPbfi9hD2zWxN6",
+        "location": "ヤクーツク（ロシア）",
+        "answer": ["ロシア","ヤクーツク"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/Uqy12ZbPrHNRK9wm6",
+        "location": "ユジノサハリンスク（ロシア）",
+        "answer": ["ロシア","ユジノサハリンスク"]
+    },
+    {
         "link": "https://maps.app.goo.gl/LfUesSLAqKUA5c416",
         "location": "レイキャビク（アイスランド）",
         "answer": ["アイスランド","レイキャビク"]
@@ -180,6 +195,11 @@
         "answer": ["イギリス","グラスゴー"]
     },
     {
+        "link": "https://maps.app.goo.gl/2MmT7QSxFnrkdkKL6",
+        "location": "リヨン（フランス）",
+        "answer": ["フランス", "リヨン" ]
+    },
+    {
         "link": "https://maps.app.goo.gl/W9hNRRiYxfHgEHXb9",
         "location": "パリ（フランス）",
         "answer": ["フランス", "パリ" ]
@@ -235,6 +255,11 @@
         "answer": ["チェコ", "プラハ" ]
     },
     {
+        "link": "https://maps.app.goo.gl/51tWevFzekBM2akh6",
+        "location": "ベオグラード（セルビア）",
+        "answer": ["セルビア", "ベオグラード" ]
+    },
+    {
         "link": "https://maps.app.goo.gl/3xUnE41cxxLZ9Xd96",
         "location": "リュブリャナ（スロベニア）",
         "answer": ["スロベニア", "リュブリャナ" ]
@@ -268,6 +293,11 @@
         "link": "https://maps.app.goo.gl/CKQs5HickC498VDR8",
         "location": "ダブリン（アイルランド）",
         "answer": ["アイルランド", "ダブリン" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/bdLLzSFDzhzGYuXC9",
+        "location": "ブラチスラヴァ（スロバキア）",
+        "answer": ["スロバキア", "ブラチスラヴァ" ]
     },
     {
         "link": "https://maps.app.goo.gl/3hCkjZMDsi1uP5Qw8",
@@ -308,6 +338,11 @@
         "link": "https://maps.app.goo.gl/J5fzey4uuavboS6J7",
         "location": "フランクフルト（ドイツ）",
         "answer": ["ドイツ", "フランクフルト" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/Sr7bazp1w9YSJfbq9",
+        "location": "ミュンヘン（ドイツ）",
+        "answer": ["ドイツ", "ミュンヘン" ]
     },
     {
         "link": "https://maps.app.goo.gl/SjCJyubbWwWcaU5R7",
@@ -351,8 +386,18 @@
     },
     {
         "link": "https://maps.app.goo.gl/gyytkYTkxEcr3WKi9",
-        "location": "マニラ（フィリピン）",
+        "location": "マニラ市（フィリピン）",
         "answer": ["フィリピン", "マニラ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/nyUZ6rRhiH7ofbvF6",
+        "location": "ダバオ市（フィリピン）",
+        "answer": ["フィリピン", "ダバオ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/D3SXqLiNHEwtV7zeA",
+        "location": "セブ市（フィリピン）",
+        "answer": ["フィリピン", "セブ" ]
     },
     {
         "link": "https://maps.app.goo.gl/tHRU7rkuUn3B6HmP6",
@@ -448,6 +493,11 @@
         "link": "https://maps.app.goo.gl/ZzAYdSbZJnL1BDz5A",
         "location": "デリー（インド）",
         "answer": ["インド", "デリー"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/qpGCV9GU21aoMgfx5",
+        "location": "ハイデラバード（インド）",
+        "answer": ["インド", "ハイデラバード"]
     },
     {
         "link": "https://maps.app.goo.gl/m19ucBNSoNE28oCeA",
