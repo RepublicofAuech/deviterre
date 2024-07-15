@@ -135,9 +135,24 @@
         "answer": ["関東", "神奈川", "横浜"]
     },
     {
+        "link": "https://maps.app.goo.gl/a74gL9yRgrWpnPQbA",
+        "location": "横須賀市（神奈川県）",
+        "answer": ["関東", "神奈川", "横須賀"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/CRw7NvVt5k6eZzSs6",
+        "location": "川崎市（神奈川県）",
+        "answer": ["関東", "神奈川", "川崎"]
+    },
+    {
         "link": "https://maps.app.goo.gl/f1Vem2eDAyRQ3PHh9",
         "location": "さいたま市（埼玉県）",
         "answer": ["関東", "埼玉", "さいたま"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/oGkAJLGzSXc2eff7A",
+        "location": "熊谷市（埼玉県）",
+        "answer": ["関東", "埼玉", "熊谷"]
     },
     {
         "link": "https://maps.app.goo.gl/xs3aBngL3VVRFfEN8",
@@ -163,6 +178,11 @@
         "link": "https://maps.app.goo.gl/p1aAJ9eLWepTU1iL7",
         "location": "高崎市（群馬県）",
         "answer": ["関東", "群馬", "高崎"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/1sSr9AxdmUQjSjuBA",
+        "location": "前橋市（群馬県）",
+        "answer": ["関東", "群馬", "前橋"]
     },
     {
         "link": "https://maps.app.goo.gl/dRiVCjCPJGR1K5fR6",
@@ -215,6 +235,11 @@
         "answer": ["中部","石川","金沢"]
     },
     {
+        "link": "https://maps.app.goo.gl/4VUyG72bYYdo7NSi9",
+        "location": "珠洲市（石川県）",
+        "answer": ["中部","石川","珠洲"]
+    },
+    {
         "link": "https://maps.app.goo.gl/5YMDtLkgVLQnQNjP8",
         "location": "甲府市（山梨県）",
         "answer": ["中部","山梨","甲府"]
@@ -248,6 +273,11 @@
         "link": "https://maps.app.goo.gl/pN313DGJwhwscMq27",
         "location": "岐阜市（岐阜県）",
         "answer": ["中部","岐阜県","岐阜"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/DUZqsTHDu935j1jUA",
+        "location": "高山市（岐阜県）",
+        "answer": ["中部","岐阜","高山"]
     },
     {
         "link": "https://maps.app.goo.gl/1ZBTgoWmA54zcXBT7",
@@ -413,6 +443,11 @@
         "link": "https://maps.app.goo.gl/7uWCHu5xe8qzH4Wt6",
         "location": "宇都宮市（栃木県）",
         "answer": ["関東","栃木","宇都宮"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/DfYU4Z8t8nDVAr656",
+        "location": "日光市（栃木県）",
+        "answer": ["関東","栃木","日光"]
     },
     {
         "link": "https://maps.app.goo.gl/8wNfR5GpXAzpnA8L8",
