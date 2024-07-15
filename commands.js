@@ -6,6 +6,7 @@ import { promises as fs } from 'fs';
 const CLIENT_ID = process.env.CLIENT_ID;
 const TOKEN = process.env.TOKEN;
 const ADMIN_ROLE_ID = process.env.ADMIN_ROLE_ID;
+const GUESS_CHANNEL_ID = process.env.GUESS_CHANNEL_ID;
 
 let currentAnswers = null;
 let correctUser = null;
@@ -216,6 +217,11 @@ export async function handleCommand(interaction) {
 export async function handleGuess(message) {
     if (!currentAnswers || correctUser || !currentMode) return;
 
+    // 指定されたチャンネルからのメッセージであることを確認
+    if (message.channel.id !== GUESS_CHANNEL_ID) {
+        return;
+    }
+
     console.log('handleGuess called with message:', message.content);
     console.log('Current answers:', currentAnswers);
     console.log('Message reference:', message.reference ? message.reference.messageId : 'No reference');
@@ -247,9 +253,16 @@ export async function handleGuess(message) {
 
             const embed = new EmbedBuilder()
                 .setTitle('正解！')
-                .setDescription(`${correctUser}さんが一番最初に正解したよ！\n__**答えはここ： ${currentLocation}**__\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`);
+                .setDescription(`${correctUser}さんが正解したよ！\n__**答えはここ： ${currentLocation}**__\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`);
 
             await message.channel.send({ embeds: [embed] });
+
+            currentAnswers = null;
+            currentLocation = null;
+            currentLink = null;
+            currentQuestionMessage = null;
+            correctUser = null;
+            currentMode = null;
 
             console.log(`Correct answer by ${correctUser.tag}: ${message.content}`);
         } else {
