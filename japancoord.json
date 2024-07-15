@@ -2,27 +2,27 @@
     {
         "link": "https://maps.app.goo.gl/fkEC1RFDgpu3irVK7",
         "location": "千代田区（東京都）",
-        "answer": ["関東", "東京都", "千代田"]
+        "answer": ["関東", "東京", "千代田"]
     },
     {
         "link": "https://maps.app.goo.gl/UpH2hdRRsu912cJU7",
         "location": "渋谷区（東京都）",
-        "answer": ["関東", "東京都", "渋谷"]
+        "answer": ["関東", "東京", "渋谷"]
     },
     {
         "link": "https://maps.app.goo.gl/izPTsBgS5FpiB5ME8",
         "location": "港区（東京都）",
-        "answer": ["関東", "東京都", "港"]
+        "answer": ["関東", "東京", "港"]
     },
     {
         "link": "https://maps.app.goo.gl/rknUYJzDGTdpggEM8",
         "location": "品川区（東京都）",
-        "answer": ["関東", "東京都", "品川"]
+        "answer": ["関東", "東京", "品川"]
     },
     {
         "link": "https://maps.app.goo.gl/bCn2wDoG2xdbxnfY7",
         "location": "八王子市（東京都）",
-        "answer": ["関東", "東京都", "八王子"]
+        "answer": ["関東", "東京", "八王子"]
     },
     {
         "link": "https://maps.app.goo.gl/oFMRcPWbUwQk5Ye26",
@@ -52,7 +52,7 @@
     {
         "link": "https://maps.app.goo.gl/anWvPjuwN4XZFLrF9",
         "location": "八戸市（青森県）",
-        "answer": ["東北", "青森県", "八戸"]
+        "answer": ["東北", "青森", "八戸"]
     },
     {
         "link": "https://maps.app.goo.gl/ZFhLBCXzwmWFPvrv9",
@@ -62,7 +62,7 @@
     {
         "link": "https://maps.app.goo.gl/YFHKeBEHgtm9T7s59",
         "location": "弘前市（青森県）",
-        "answer": ["東北", "青森県", "弘前"]
+        "answer": ["東北", "青森", "弘前"]
     },
     {
         "link": "https://maps.app.goo.gl/gzGKsR16tFV5Fphy8",
@@ -72,12 +72,12 @@
     {
         "link": "https://maps.app.goo.gl/EhnQHrT55qmnYfUWA",
         "location": "鶴岡市（山形県）",
-        "answer": ["東北", "山形県", "鶴岡"]
+        "answer": ["東北", "山形", "鶴岡"]
     },
     {
         "link": "https://maps.app.goo.gl/f5qLvdu9VEYXjqGJ9",
         "location": "天童市（山形県）",
-        "answer": ["東北", "山形県", "天童"]
+        "answer": ["東北", "山形", "天童"]
     },
     {
         "link": "https://maps.app.goo.gl/JUPSgLa3dstQuZHL9",
@@ -87,82 +87,82 @@
     {
         "link": "https://maps.app.goo.gl/f4FdyaK8eMYxqLKL8",
         "location": "男鹿市（秋田県）",
-        "answer": ["東北", "秋田県", "男鹿"]
+        "answer": ["東北", "秋田", "男鹿"]
     },
     {
         "link": "https://maps.app.goo.gl/qhUmUPt6vHQKtPL9A",
         "location": "横手市（秋田県）",
-        "answer": ["東北", "秋田県", "横手"]
+        "answer": ["東北", "秋田", "横手"]
     },
     {
         "link": "https://maps.app.goo.gl/uMWajXGCoLVi9Xq89",
         "location": "盛岡市（岩手県）",
-        "answer": ["東北", "岩手県", "盛岡"]
+        "answer": ["東北", "岩手", "盛岡"]
     },
     {
         "link": "https://maps.app.goo.gl/LuCikiAcDcvJDwQ89",
         "location": "北上市（岩手県）",
-        "answer": ["東北", "岩手県", "北上"]
+        "answer": ["東北", "岩手", "北上"]
     },
     {
         "link": "https://maps.app.goo.gl/QXqSh4qUotcSeWh37",
         "location": "宮古市（岩手県）",
-        "answer": ["東北", "岩手県", "宮古"]
+        "answer": ["東北", "岩手", "宮古"]
     },
     {
         "link": "https://maps.app.goo.gl/TWdV8x1E5jvVAa529",
         "location": "仙台市（宮城県）",
-        "answer": ["東北", "宮城県", "仙台"]
+        "answer": ["東北", "宮城", "仙台"]
     },
     {
         "link": "https://maps.app.goo.gl/EeQkmB4mKddNEYRHA",
         "location": "岩沼市（宮城県）",
-        "answer": ["東北", "宮城県", "岩沼"]
+        "answer": ["東北", "宮城", "岩沼"]
     },
     {
         "link": "https://maps.app.goo.gl/nQnvp1mfyWK9hcLj8",
         "location": "名取市（宮城県）",
-        "answer": ["東北", "宮城県", "名取"]
+        "answer": ["東北", "宮城", "名取"]
     },
     {
         "link": "https://maps.app.goo.gl/4C6sWyjRvQHDT81p9",
         "location": "墨田区（東京都）",
-        "answer": ["関東", "東京都", "墨田"]
+        "answer": ["関東", "東京", "墨田"]
     },
     {
         "link": "https://maps.app.goo.gl/359dTbHEoLJM5rwp9",
         "location": "横浜市（神奈川県）",
-        "answer": ["関東", "神奈川県", "横浜"]
+        "answer": ["関東", "神奈川", "横浜"]
     },
     {
         "link": "https://maps.app.goo.gl/f1Vem2eDAyRQ3PHh9",
         "location": "さいたま市（埼玉県）",
-        "answer": ["関東", "埼玉県", "さいたま"]
+        "answer": ["関東", "埼玉", "さいたま"]
     },
     {
         "link": "https://maps.app.goo.gl/xs3aBngL3VVRFfEN8",
         "location": "川越市（埼玉県）",
-        "answer": ["関東", "埼玉県", "川越"]
+        "answer": ["関東", "埼玉", "川越"]
     },
     {
         "link": "https://maps.app.goo.gl/f12AzVsQqLXtc6Vd8",
         "location": "川口市（埼玉県）",
-        "answer": ["関東", "埼玉県", "川口"]
+        "answer": ["関東", "埼玉", "川口"]
     },
     {
         "link": "https://maps.app.goo.gl/8R48LSEaHKZt3uWa6",
         "location": "浦安市（千葉県）",
-        "answer": ["関東", "千葉県", "浦安"]
+        "answer": ["関東", "千葉", "浦安"]
     },
     {
         "link": "https://maps.app.goo.gl/dgwVjBTgNDHXRx1D9",
         "location": "柏市（千葉県）",
-        "answer": ["関東", "千葉県", "柏"]
+        "answer": ["関東", "千葉", "柏"]
     },
     {
         "link": "https://maps.app.goo.gl/p1aAJ9eLWepTU1iL7",
         "location": "高崎市（群馬県）",
-        "answer": ["関東", "群馬県", "高崎"]
+        "answer": ["関東", "群馬", "高崎"]
     },
     {
         "link": "https://maps.app.goo.gl/dRiVCjCPJGR1K5fR6",
@@ -172,17 +172,17 @@
     {
         "link": "https://maps.app.goo.gl/X6y4g4pXgZDNZ8yN7",
         "location": "水戸市（茨城県）",
-        "answer": ["関東", "茨城県", "水戸"]
+        "answer": ["関東", "茨城", "水戸"]
     },
     {
         "link": "https://maps.app.goo.gl/vqRSipQLqkDhQG5z5",
         "location": "つくば市（茨城県）",
-        "answer": ["関東", "茨城県", "つくば"]
+        "answer": ["関東", "茨城", "つくば"]
     },
     {
         "link": "https://maps.app.goo.gl/Le7gDL1VycRt7shf9",
         "location": "越谷市（埼玉県）",
-        "answer": ["関東", "埼玉県", "越谷"]
+        "answer": ["関東", "埼玉", "越谷"]
     },
     {
         "link": "https://maps.app.goo.gl/D4qimoTNSujs7Bzi8",
@@ -197,12 +197,12 @@
     {
         "link": "https://maps.app.goo.gl/F8WWaU5rxsR5Cv7U9",
         "location": "舞鶴市（京都府）",
-        "answer": ["近畿","京都府","舞鶴"]
+        "answer": ["近畿","京都","舞鶴"]
     },
     {
         "link": "https://maps.app.goo.gl/sWziYWhhszbF6ZVCA",
         "location": "浜松市（静岡県）",
-        "answer": ["中部","静岡県","浜松"]
+        "answer": ["中部","静岡","浜松"]
     },
     {
         "link": "https://maps.app.goo.gl/xX35rHgfGRCHZGt9A",
@@ -212,17 +212,17 @@
     {
         "link": "https://maps.app.goo.gl/DpWBLzN8DicwV2n2A",
         "location": "金沢市（石川県）",
-        "answer": ["中部","石川県","金沢"]
+        "answer": ["中部","石川","金沢"]
     },
     {
         "link": "https://maps.app.goo.gl/5YMDtLkgVLQnQNjP8",
         "location": "甲府市（山梨県）",
-        "answer": ["中部","山梨県","甲府"]
+        "answer": ["中部","山梨","甲府"]
     },
     {
         "link": "https://maps.app.goo.gl/CWyj9SK4unvKs33F6",
         "location": "福井市（福井県）",
-        "answer": ["中部","福井県","福井"]
+        "answer": ["中部","福井","福井"]
     },
     {
         "link": "https://maps.app.goo.gl/mFghCU4zeje6V7D3A",
@@ -232,17 +232,17 @@
     {
         "link": "https://maps.app.goo.gl/JZaejvADqJgyjYEZ8",
         "location": "佐渡市（新潟県）",
-        "answer": ["中部","新潟県","佐渡"]
+        "answer": ["中部","新潟","佐渡"]
     },
     {
         "link": "https://maps.app.goo.gl/JWC6Hmo3qL2H51S38",
         "location": "長岡市（新潟県）",
-        "answer": ["中部","新潟県","長岡"]
+        "answer": ["中部","新潟","長岡"]
     },
     {
         "link": "https://maps.app.goo.gl/eWFjxkeG6c5oh5UT8",
         "location": "上越市（新潟県）",
-        "answer": ["中部","新潟県","上越"]
+        "answer": ["中部","新潟","上越"]
     },
     {
         "link": "https://maps.app.goo.gl/pN313DGJwhwscMq27",
@@ -252,17 +252,17 @@
     {
         "link": "https://maps.app.goo.gl/1ZBTgoWmA54zcXBT7",
         "location": "名古屋市（愛知県）",
-        "answer": ["中部","愛知県","名古屋"]
+        "answer": ["中部","愛知","名古屋"]
     },
     {
         "link": "https://maps.app.goo.gl/kuoS2j2FthU9sMx49",
         "location": "安城市（愛知県）",
-        "answer": ["中部","愛知県","安城"]
+        "answer": ["中部","愛知","安城"]
     },
     {
         "link": "https://maps.app.goo.gl/SBEt4uFVLMpVJMvz5",
         "location": "豊田市（愛知県）",
-        "answer": ["中部","愛知県","豊田"]
+        "answer": ["中部","愛知","豊田"]
     },
     {
         "link": "https://maps.app.goo.gl/BHHP2TearqxzHUNN8",
@@ -272,22 +272,22 @@
     {
         "link": "https://maps.app.goo.gl/S6hGxoRDBJH3Yoy18",
         "location": "神戸市（兵庫県）",
-        "answer": ["近畿","兵庫県","神戸"]
+        "answer": ["近畿","兵庫","神戸"]
     },
     {
         "link": "https://maps.app.goo.gl/9aSdyqTSDpKWVRju9",
         "location": "明石市（兵庫県）",
-        "answer": ["近畿","兵庫県","明石"]
+        "answer": ["近畿","兵庫","明石"]
     },
     {
         "link": "https://maps.app.goo.gl/3MigqvxVRtZPHRa77",
         "location": "姫路市（兵庫県）",
-        "answer": ["近畿","兵庫県","姫路"]
+        "answer": ["近畿","兵庫","姫路"]
     },
     {
         "link": "https://maps.app.goo.gl/TXj2FPw4DuJYzqVs9",
         "location": "湖西市（静岡県）",
-        "answer": ["中部","静岡県","湖西"]
+        "answer": ["中部","静岡","湖西"]
     },
     {
         "link": "https://maps.app.goo.gl/5rqawZn777zfAg466",
@@ -297,22 +297,22 @@
     {
         "link": "https://maps.app.goo.gl/yDdrzGrFRYonu5pc7",
         "location": "高松市（香川県）",
-        "answer": ["四国","香川県","高松"]
+        "answer": ["四国","香川","高松"]
     },
     {
         "link": "https://maps.app.goo.gl/GFk46KDs1rzVGbxm7",
         "location": "丸亀市（香川県）",
-        "answer": ["四国","香川県","丸亀"]
+        "answer": ["四国","香川","丸亀"]
     },
     {
         "link": "https://maps.app.goo.gl/ZuDWKzQKGgjBsdWr7",
         "location": "松山市（愛媛県）",
-        "answer": ["四国","愛媛県","松山"]
+        "answer": ["四国","愛媛","松山"]
     },
     {
         "link": "https://maps.app.goo.gl/RLhtVzWKvaP7cjY18",
         "location": "今治市（愛媛県）",
-        "answer": ["四国","愛媛県","今治"]
+        "answer": ["四国","愛媛","今治"]
     },
     {
         "link": "https://maps.app.goo.gl/TuApxcJ4uTAaAUAw8",
@@ -322,7 +322,7 @@
     {
         "link": "https://maps.app.goo.gl/6wdFAig4oZnibQxN8",
         "location": "四万十市（高知県）",
-        "answer": ["四国","高知県","四万十"]
+        "answer": ["四国","高知","四万十"]
     },
     {
         "link": "https://maps.app.goo.gl/7eUeLr2ReNkHpVy5A",
@@ -332,7 +332,7 @@
     {
         "link": "https://maps.app.goo.gl/3ZyTuUTAT8RD3mf39",
         "location": "鳴門市（徳島県）",
-        "answer": ["四国","徳島県","鳴門"]
+        "answer": ["四国","徳島","鳴門"]
     },
     {
         "link": "https://maps.app.goo.gl/9cN7ttYCJyBXTDAk6",
@@ -342,12 +342,12 @@
     {
         "link": "https://maps.app.goo.gl/PUXKTsb6MZ73z2ZW9",
         "location": "福山市（広島県）",
-        "answer": ["中国","広島県","福山"]
+        "answer": ["中国","広島","福山"]
     },
     {
         "link": "https://maps.app.goo.gl/sozJGt4kPaofNyDr9",
         "location": "下関市（山口県）",
-        "answer": ["中国","山口県","下関"]
+        "answer": ["中国","山口","下関"]
     },
     {
         "link": "https://maps.app.goo.gl/Bcc3gXH4usNMS6En6",
@@ -357,12 +357,12 @@
     {
         "link": "https://maps.app.goo.gl/npzAaqAADiwqQJqLA",
         "location": "萩市（山口県）",
-        "answer": ["中国","山口県","萩"]
+        "answer": ["中国","山口","萩"]
     },
     {
         "link": "https://maps.app.goo.gl/zV9YBTw6LcPdMgcF6",
         "location": "松江市（島根県）",
-        "answer": ["中国","島根県","松江"]
+        "answer": ["中国","島根","松江"]
     },
     {
         "link": "https://maps.app.goo.gl/wUSMj3DYNThTyMCeA",
@@ -372,32 +372,32 @@
     {
         "link": "https://maps.app.goo.gl/DbBJu6sTXEoQRGQWA",
         "location": "津山市（岡山県）",
-        "answer": ["中国","岡山県","津山"]
+        "answer": ["中国","岡山","津山"]
     },
     {
         "link": "https://maps.app.goo.gl/h9EESNh37yxFLFw8A",
         "location": "出雲市（島根県）",
-        "answer": ["中国","島根県","出雲"]
+        "answer": ["中国","島根","出雲"]
     },
     {
         "link": "https://maps.app.goo.gl/CBDEmoVBf4NSPpAq6",
         "location": "鳥取市（鳥取県）",
-        "answer": ["中国","鳥取県","鳥取"]
+        "answer": ["中国","鳥取","鳥取"]
     },
     {
         "link": "https://maps.app.goo.gl/nsjvUfVXT67vrdz87",
         "location": "伊勢市（三重県）",
-        "answer": ["近畿","三重県","伊勢"]
+        "answer": ["近畿","三重","伊勢"]
     },
     {
         "link": "https://maps.app.goo.gl/Yv69McK8NpgRcM178",
         "location": "四日市市（三重県）",
-        "answer": ["近畿","三重県","四日市"]
+        "answer": ["近畿","三重","四日市"]
     },
     {
         "link": "https://maps.app.goo.gl/186PzpG9oNd9s9s58",
         "location": "大津市（滋賀県）",
-        "answer": ["近畿","滋賀県","大津"]
+        "answer": ["近畿","滋賀","大津"]
     },
     {
         "link": "https://maps.app.goo.gl/C8oawyoojybwco218",
@@ -412,7 +412,7 @@
     {
         "link": "https://maps.app.goo.gl/7uWCHu5xe8qzH4Wt6",
         "location": "宇都宮市（栃木県）",
-        "answer": ["関東","栃木県","宇都宮"]
+        "answer": ["関東","栃木","宇都宮"]
     },
     {
         "link": "https://maps.app.goo.gl/8wNfR5GpXAzpnA8L8",
@@ -427,7 +427,7 @@
     {
         "link": "https://maps.app.goo.gl/2BnhCNjRmpKbzHiF7",
         "location": "郡山市（福島県）",
-        "answer": ["東北","福島県","郡山"]
+        "answer": ["東北","福島","郡山"]
     },
     {
         "link": "https://maps.app.goo.gl/xcuxEra2mgMCSmc26",
@@ -437,17 +437,17 @@
     {
         "link": "https://maps.app.goo.gl/SEZtoZA9svky8pmX6",
         "location": "いわき市（福島県）",
-        "answer": ["東北","福島県","いわき"]
+        "answer": ["東北","福島","いわき"]
     },
     {
         "link": "https://maps.app.goo.gl/mvU8DmALKDeLnoak7",
         "location": "那覇市（沖縄県）",
-        "answer": ["九州","沖縄県","那覇"]
+        "answer": ["九州","沖縄","那覇"]
     },
     {
         "link": "https://maps.app.goo.gl/UKUKymUnW7kzecr49",
         "location": "うるま市（沖縄県）",
-        "answer": ["九州","沖縄県","うるま"]
+        "answer": ["九州","沖縄","うるま"]
     },
     {
         "link": "https://maps.app.goo.gl/ohErX61K6BiuSefR7",
@@ -457,7 +457,7 @@
     {
         "link": "https://maps.app.goo.gl/PjkKsjGnqgpddrLF8",
         "location": "佐世保市（長崎県）",
-        "answer": ["九州","長崎県","佐世保"]
+        "answer": ["九州","長崎","佐世保"]
     },
     {
         "link": "https://maps.app.goo.gl/ZQrRZZtVgPGzn7VQ8",
@@ -467,12 +467,12 @@
     {
         "link": "https://maps.app.goo.gl/1F7TwsgXWp7s6c1g8",
         "location": "北九州市（福岡県）",
-        "answer": ["九州","福岡県","北九州"]
+        "answer": ["九州","福岡","北九州"]
     },
     {
         "link": "https://maps.app.goo.gl/DugoQHnvLSdQH8637",
         "location": "久留米市（福岡県）",
-        "answer": ["九州","福岡県","久留米"]
+        "answer": ["九州","福岡","久留米"]
     },
     {
         "link": "https://maps.app.goo.gl/S1XjywcvDqbYBr797",
@@ -502,6 +502,6 @@
     {
         "link": "https://maps.app.goo.gl/FMsYKdsWmzK4MK4E6",
         "location": "指宿市（鹿児島県）",
-        "answer": ["九州","鹿児島県","指宿"]
+        "answer": ["九州","鹿児島","指宿"]
     }
 ]
