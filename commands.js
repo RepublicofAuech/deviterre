@@ -2,7 +2,7 @@ import { REST, Routes, EmbedBuilder } from 'discord.js';
 import { getRandomStreetViewImage } from './getStreetView.js';
 import { promises as fs } from 'fs';
 
-// 環境変数から設定を取得
+// DiscordアプリケーションのクライアントIDとトークンを設定
 const CLIENT_ID = process.env.CLIENT_ID;
 const TOKEN = process.env.TOKEN;
 const ADMIN_ROLE_ID = process.env.ADMIN_ROLE_ID;
@@ -115,25 +115,17 @@ export async function registerCommands(client) {
 // スラッシュコマンドの処理を行う関数
 export async function handleCommand(interaction) {
     if (interaction.commandName === 'gamestart') {
-        // ゲームがすでに進行中であるか確認
-        if (currentQuestionMessage && !correctUser) {
-            await interaction.reply('もうすでに始まっています');
+        if (currentQuestionMessage) {
+            await interaction.reply('ゲームはすでに進行中です！');
             return;
         }
 
-        await interaction.deferReply(); // 処理中であることを通知するため
+        await interaction.deferReply();
 
         const region = interaction.options.getString('モード'); // 修正
 
         try {
-            // 画像を取得する前に「画像を準備中です」と返信
-            await interaction.editReply('画像を準備中です...');
-
-            // 画像の取得
             const { imagePath, link, location, answer } = await getRandomStreetViewImage(region);
-
-            console.log('Street view image fetched successfully.');
-
             const embed = new EmbedBuilder()
                 .setTitle('Deviterreの場所当てゲーム')
                 .setImage('attachment://streetview.png')
@@ -229,18 +221,18 @@ export async function handleGuess(message) {
     console.log('Message reference:', message.reference ? message.reference.messageId : 'No reference');
     console.log('Current question message ID:', currentQuestionMessage.id);
 
+    const guess = message.content.trim().toLowerCase();
+    console.log('User guess:', guess);
+
+    const answerIndex = currentAnswers.findIndex(answer => guess.includes(answer));
+    console.log('Answer index:', answerIndex);
+
+    let scoreToAdd = 0;
+    if (answerIndex !== -1) {
+        scoreToAdd = answerIndex + 1;
+    }
+
     if (message.reference && message.reference.messageId === currentQuestionMessage.id) {
-        const guess = message.content.trim().toLowerCase();
-        console.log('User guess:', guess);
-
-        const answerIndex = currentAnswers.findIndex(answer => guess.includes(answer));
-        console.log('Answer index:', answerIndex);
-
-        let scoreToAdd = 0;
-        if (answerIndex !== -1) {
-            scoreToAdd = answerIndex + 1;
-        }
-
         if (scoreToAdd > 0) {
             correctUser = message.author;
 
@@ -259,15 +251,49 @@ export async function handleGuess(message) {
 
             await message.channel.send({ embeds: [embed] });
 
-            // ゲームが終了したため、currentQuestionMessageをnullにリセット
-            currentQuestionMessage = null;
-
             console.log(`Correct answer by ${correctUser.tag}: ${message.content}`);
         } else {
             await message.react('❌');
             console.log(`Incorrect answer by ${message.author.tag}: ${message.content}`);
         }
+    } else if (scoreToAdd > 0) {
+        if (!userScores[currentMode]) {
+            userScores[currentMode] = {};
+        }
+        const userId = message.author.id;
+        if (!userScores[currentMode][userId]) {
+            userScores[currentMode][userId] = 0;
+        }
+        userScores[currentMode][userId] += scoreToAdd;
+
+        const embed = new EmbedBuilder()
+            .setTitle('正解！')
+            .setDescription(`${message.author}さんが正解したよ！\n__**答えはここ： ${currentLocation}**__\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`);
+
+        await message.channel.send({ embeds: [embed] });
+
+        console.log(`Correct answer by ${message.author.tag}: ${message.content}`);
     } else {
-        console.log('Message is not a reply to the current question.');
+        await message.react('❌');
+        console.log(`Incorrect answer by ${message.author.tag}: ${message.content}`);
+    }
+}
+
+export async function saveScores() {
+    try {
+        await fs.writeFile('userScores.json', JSON.stringify(userScores, null, 2));
+        console.log('User scores saved successfully.');
+    } catch (error) {
+        console.error('Error saving user scores:', error);
+    }
+}
+
+export async function loadScores() {
+    try {
+        const data = await fs.readFile('userScores.json', 'utf-8');
+        userScores = JSON.parse(data);
+        console.log('User scores loaded successfully.');
+    } catch (error) {
+        console.error('Error loading user scores:', error);
     }
 }
