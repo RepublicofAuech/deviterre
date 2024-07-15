@@ -2,566 +2,721 @@
     {
         "link": "https://maps.app.goo.gl/Px5PWcXXHM5fHTky5",
         "location": "ニューヨーク（アメリカ）",
-        "answer": ["アメリカ","ニューヨーク"]
+        "answer": ["北アメリカ","アメリカ","ニューヨーク"]
     },
     {
         "link": "https://maps.app.goo.gl/vxVLRzfv1G7MyFV89",
         "location": "ヒューストン（アメリカ）",
-        "answer": ["アメリカ","ヒューストン"]
+        "answer": ["北アメリカ","アメリカ","ヒューストン"]
     },
     {
         "link": "https://maps.app.goo.gl/bTkvZcvWHQhfAPUb9",
         "location": "アンカレジ（アメリカ）",
-        "answer": ["アメリカ","アンカレジ"]
+        "answer": ["北アメリカ","アメリカ","アンカレジ"]
     },
     {
         "link": "https://maps.app.goo.gl/chg3UP7JndHTDboW7",
         "location": "マイアミ（アメリカ）",
-        "answer": ["アメリカ","マイアミ"]
+        "answer": ["北アメリカ","アメリカ","マイアミ"]
     },
     {
         "link": "https://maps.app.goo.gl/1a7CtoSnZeYMMfMr8",
         "location": "ホノルル（アメリカ）",
-        "answer": ["アメリカ","ホノルル"]
+        "answer": ["北アメリカ","アメリカ","ホノルル"]
     },
     {
         "link": "https://maps.app.goo.gl/cZySh1CY3CzUazpU8",
         "location": "シアトル（アメリカ）",
-        "answer": ["アメリカ","シアトル"]
+        "answer": ["北アメリカ","アメリカ","シアトル"]
     },
     {
         "link": "https://maps.app.goo.gl/Tvbdr7xYEcvRo6Nd8",
         "location": "ロサンゼルス（アメリカ）",
-        "answer": ["アメリカ","ロサンゼルス"]
+        "answer": ["北アメリカ","アメリカ","ロサンゼルス"]
     },
     {
         "link": "https://maps.app.goo.gl/if24ckgTfcUxnXcv8",
         "location": "サンフランシスコ（アメリカ）",
-        "answer": ["アメリカ","サンフランシスコ"]
+        "answer": ["北アメリカ","アメリカ","サンフランシスコ"]
     },
     {
         "link": "https://maps.app.goo.gl/FgP4os9AGB9TzZtz8",
         "location": "台北（台湾）",
-        "answer": ["台湾","台北"]
+        "answer": ["アジア","台湾","台北"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/G1yxDRwxSFDgEkMw8",
+        "location": "高雄（台湾）",
+        "answer": ["アジア","台湾","高雄"]
     },
     {
         "link": "https://maps.app.goo.gl/eTZeGw1GnVLoxHy58",
         "location": "シカゴ（アメリカ）",
-        "answer": ["アメリカ","シカゴ"]
+        "answer": ["北アメリカ","アメリカ","シカゴ"]
     },
     {
         "link": "https://maps.app.goo.gl/C34d5DSfKvFaMLC39",
         "location": "トロント（カナダ）",
-        "answer": ["カナダ","トロント"]
+        "answer": ["北アメリカ","カナダ","トロント"]
     },
     {
         "link": "https://maps.app.goo.gl/fMrFfW1ZB9Q4hwdp8",
         "location": "モントリオール（カナダ）",
-        "answer": ["カナダ","モントリオール"]
+        "answer": ["北アメリカ","カナダ","モントリオール"]
     },
     {
         "link": "https://maps.app.goo.gl/7t7extaBx7B9MP3R9",
         "location": "カルガリー（カナダ）",
-        "answer": ["カナダ","カルガリー"]
+        "answer": ["北アメリカ","カナダ","カルガリー"]
     },
     {
         "link": "https://maps.app.goo.gl/aCKWbgVf4UgBxA5T9",
         "location": "パナマシティ（パナマ）",
-        "answer": ["パナマ","パナマシティ"]
+        "answer": ["北アメリカ","パナマ","パナマシティ"]
     },
     {
         "link": "https://maps.app.goo.gl/z6LHSWGq2jzuvNU58",
         "location": "リマ（ペルー）",
-        "answer": ["ペルー","リマ"]
+        "answer": ["南アメリカ","ペルー","リマ"]
     },
     {
         "link": "https://maps.app.goo.gl/UrNQSJ56DVqTDjm89",
         "location": "クスコ（ペルー）",
-        "answer": ["ペルー","クスコ"]
+        "answer": ["南アメリカ","ペルー","クスコ"]
     },
     {
         "link": "https://maps.app.goo.gl/txTLBg3aR9YFtCP67",
         "location": "サンクトペテルブルク（ロシア）",
-        "answer": ["ロシア","サンクトペテルブルク"]
+        "answer": ["ヨーロッパ","ロシア","サンクトペテルブルク"]
     },
     {
         "link": "https://maps.app.goo.gl/PZdTS6gDEohdDjxg7",
         "location": "モスクワ（ロシア）",
-        "answer": ["ロシア","モスクワ"]
+        "answer": ["ヨーロッパ","ロシア","モスクワ"]
     },
     {
         "link": "https://maps.app.goo.gl/2AtxdHyc3VbfVgq4A",
         "location": "ウラジオストク（ロシア）",
-        "answer": ["ロシア","ウラジオストク"]
+        "answer": ["ヨーロッパ","ロシア","ウラジオストク"]
     },
     {
         "link": "https://maps.app.goo.gl/YJ6N4aX28haczS1D7",
         "location": "イルクーツク（ロシア）",
-        "answer": ["ロシア","イルクーツク"]
+        "answer": ["ヨーロッパ","ロシア","イルクーツク"]
     },
     {
         "link": "https://maps.app.goo.gl/bzBhPbfi9hD2zWxN6",
         "location": "ヤクーツク（ロシア）",
-        "answer": ["ロシア","ヤクーツク"]
+        "answer": ["ヨーロッパ","ロシア","ヤクーツク"]
     },
     {
         "link": "https://maps.app.goo.gl/Uqy12ZbPrHNRK9wm6",
         "location": "ユジノサハリンスク（ロシア）",
-        "answer": ["ロシア","ユジノサハリンスク"]
+        "answer": ["ヨーロッパ","ロシア","ユジノサハリンスク"]
     },
     {
         "link": "https://maps.app.goo.gl/LfUesSLAqKUA5c416",
         "location": "レイキャビク（アイスランド）",
-        "answer": ["アイスランド","レイキャビク"]
+        "answer": ["ヨーロッパ","アイスランド","レイキャビク"]
     },
     {
         "link": "https://maps.app.goo.gl/QPH9eD7GxYdZNbWv9",
         "location": "バンクーバー（カナダ）",
-        "answer": ["カナダ","バンクーバー"]
+        "answer": ["北アメリカ","カナダ","バンクーバー"]
     },
     {
         "link": "https://maps.app.goo.gl/avfGGa2VDbT5iKpq9",
         "location": "リオデジャネイロ（ブラジル）",
-        "answer": ["ブラジル","リオデジャネイロ"]
+        "answer": ["南アメリカ","ブラジル","リオデジャネイロ"]
     },
     {
         "link": "https://maps.app.goo.gl/q2V2eTgUrNrpwkoZA",
         "location": "サンパウロ（ブラジル）",
-        "answer": ["ブラジル","サンパウロ"]
+        "answer": ["南アメリカ","ブラジル","サンパウロ"]
     },
     {
         "link": "https://maps.app.goo.gl/UsW7MuPeJJUB9teD6",
         "location": "ブラジリア（ブラジル）",
-        "answer": ["ブラジル","ブラジリア"]
+        "answer": ["南アメリカ","ブラジル","ブラジリア"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/AnzQoNe5b81w1YSX7",
+        "location": "マナウス（ブラジル）",
+        "answer": ["南アメリカ","ブラジル","マナウス"]
     },
     {
         "link": "https://maps.app.goo.gl/nR6yBTaw37jgxkx9A",
         "location": "シドニー（オーストラリア）",
-        "answer": ["オーストラリア","シドニー"]
+        "answer": ["オセアニア","オーストラリア","シドニー"]
     },
     {
         "link": "https://maps.app.goo.gl/cJMdpZ4WoSyrqFqYA",
         "location": "メルボルン（オーストラリア）",
-        "answer": ["オーストラリア","メルボルン"]
+        "answer": ["オセアニア","オーストラリア","メルボルン"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/mWBbXSpmPdar8SD67",
+        "location": "パース（オーストラリア）",
+        "answer": ["オセアニア","オーストラリア","パース"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/gbrdTHfZoZuGdkHf9",
+        "location": "ブリスベン（オーストラリア）",
+        "answer": ["オセアニア","オーストラリア","ブリスベン"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/Vi6oCTGV5dVgfF9y7",
+        "location": "アデレード（オーストラリア）",
+        "answer": ["オセアニア","オーストラリア","アデレード"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/gbrdTHfZoZuGdkHf9",
+        "location": "ブリスベン（オーストラリア）",
+        "answer": ["オセアニア","オーストラリア","ブリスベン"]
     },
     {
         "link": "https://maps.app.goo.gl/iLbZjzvFnmGomek76",
         "location": "ドーハ（カタール）",
-        "answer": ["カタール","ドーハ"]
+        "answer": ["アジア","カタール","ドーハ"]
     },
     {
         "link": "https://maps.app.goo.gl/kBUdcZDXUZHfVSCcA",
         "location": "テルアビブ（イスラエル）",
-        "answer": ["イスラエル","テルアビブ"]
+        "answer": ["アジア","イスラエル","テルアビブ"]
     },
     {
         "link": "https://maps.app.goo.gl/6t449zwCQbYmQ7Jv6",
         "location": "エルサレム（イスラエル）",
-        "answer": ["イスラエル","エルサレム"]
+        "answer": ["アジア","イスラエル","エルサレム"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/iY6ftYRMx3LN5Qea6",
+        "location": "ベイルート（レバノン）",
+        "answer": ["アジア","レバノン","ベイルート"]
     },
     {
         "link": "https://maps.app.goo.gl/2b6Zpiykhc6HCRyg6",
         "location": "ラゴス（ナイジェリア）",
-        "answer": ["ナイジェリア","ラゴス"]
+        "answer": ["アフリカ","ナイジェリア","ラゴス"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/fGNuxZxdu6EW9bK57",
+        "location": "アブジャ（ナイジェリア）",
+        "answer": ["アフリカ","ナイジェリア","アブジャ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/kB7q2GtLHy2T1N5P9",
+        "location": "ダカール（セネガル）",
+        "answer": ["アフリカ","ナイジェリア","ダカール"]
     },
     {
         "link": "https://maps.app.goo.gl/XRz5Z7jLHWX3eC1D6",
         "location": "ドバイ（アラブ首長国連邦）",
-        "answer": ["アラブ首長国連邦","ドバイ"]
+        "answer": ["アジア","アラブ首長国連邦","ドバイ"]
     },
     {
         "link": "https://maps.app.goo.gl/bCHoQi8Ra4hyPcwWA",
         "location": "ロンドン（イギリス）",
-        "answer": ["イギリス","ロンドン"]
+        "answer": ["ヨーロッパ","イギリス","ロンドン"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/3Jbe5jva58Bkdqpr8",
+        "location": "マンチェスター（イギリス）",
+        "answer": ["ヨーロッパ","イギリス","マンチェスター"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/NbcaefmUvw9Kd4UUA",
+        "location": "ソフィア（ブルガリア）",
+        "answer": ["ヨーロッパ","ブルガリア","ソフィア"]
     },
     {
         "link": "https://maps.app.goo.gl/xxcH5Yof8bYTvTdu5",
         "location": "キーウ（ウクライナ）",
-        "answer": ["ウクライナ","キーウ"]
+        "answer": ["ヨーロッパ","ウクライナ","キーウ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/g86rqRtxy3LQ4GbLA",
+        "location": "ドネツク（ウクライナ）",
+        "answer": ["ヨーロッパ","ウクライナ","ドネツク"]
     },
     {
         "link": "https://maps.app.goo.gl/6C2FcELAjS9BtPcf9",
         "location": "ブダペスト（ハンガリー）",
-        "answer": ["ウクライナ","ブダペスト"]
+        "answer": ["ヨーロッパ","ハンガリー","ブダペスト"]
     },
     {
         "link": "https://maps.app.goo.gl/kvg25mbcAHWWm7ye6",
         "location": "ブカレスト（ルーマニア）",
-        "answer": ["ルーマニア","ブカレスト"]
+        "answer": ["ヨーロッパ","ルーマニア","ブカレスト"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/kvg25mbcAHWWm7ye6",
+        "location": "クルジュ＝ナポカ（ルーマニア）",
+        "answer": ["ヨーロッパ","ルーマニア","クルジュ"]
     },
     {
         "link": "https://maps.app.goo.gl/tNC4ZxgMsys9Wzxq9",
         "location": "グラスゴー（イギリス）",
-        "answer": ["イギリス","グラスゴー"]
+        "answer": ["ヨーロッパ","イギリス","グラスゴー"]
     },
     {
         "link": "https://maps.app.goo.gl/2MmT7QSxFnrkdkKL6",
         "location": "リヨン（フランス）",
-        "answer": ["フランス", "リヨン" ]
+        "answer": ["ヨーロッパ","フランス", "リヨン" ]
     },
     {
         "link": "https://maps.app.goo.gl/W9hNRRiYxfHgEHXb9",
         "location": "パリ（フランス）",
-        "answer": ["フランス", "パリ" ]
+        "answer": ["ヨーロッパ","フランス", "パリ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/4BYb7EcL9L5p7tLCA",
+        "location": "マルセイユ（フランス）",
+        "answer": ["ヨーロッパ","フランス", "マルセイユ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/qqT1819jJFTfFh3d8",
+        "location": "ニース（フランス）",
+        "answer": ["ヨーロッパ","フランス", "ニース" ]
     },
     {
         "link": "https://maps.app.goo.gl/Vc1P2icaNvJmCwCq6",
         "location": "コペンハーゲン（デンマーク）",
-        "answer": ["デンマーク", "コペンハーゲン" ]
+        "answer": ["ヨーロッパ","デンマーク", "コペンハーゲン" ]
     },
     {
         "link": "https://maps.app.goo.gl/3c6uVMD9kDYKNmEK6",
         "location": "バルセロナ（スペイン）",
-        "answer": ["スペイン", "バルセロナ" ]
+        "answer": ["ヨーロッパ","スペイン", "バルセロナ" ]
     },
     {
         "link": "https://maps.app.goo.gl/3c6uVMD9kDYKNmEK6",
         "location": "リスボン（ポルトガル）",
-        "answer": ["ポルトガル", "リスボン" ]
+        "answer": ["ヨーロッパ","ポルトガル", "リスボン" ]
     },
     {
         "link": "https://maps.app.goo.gl/KdWF2zdps6Es8Ztc6",
         "location": "ブエノスアイレス（アルゼンチン）",
-        "answer": ["アルゼンチン", "ブエノスアイレス" ]
+        "answer": ["南アメリカ","アルゼンチン", "ブエノスアイレス" ]
     },
     {
         "link": "https://maps.app.goo.gl/4nZUFzBPNmVmL8sJA",
         "location": "サンティアゴ（チリ）",
-        "answer": ["チリ", "サンティアゴ" ]
+        "answer": ["南アメリカ","チリ", "サンティアゴ" ]
     },
     {
         "link": "https://maps.app.goo.gl/tPbupqaLLKKtszha6",
         "location": "アムステルダム（オランダ）",
-        "answer": ["オランダ", "アムステルダム" ]
+        "answer": ["ヨーロッパ","オランダ", "アムステルダム" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/oTj7kdr7pG8Rzpkk6",
+        "location": "ロッテルダム（オランダ）",
+        "answer": ["ヨーロッパ","オランダ", "ロッテルダム" ]
     },
     {
         "link": "https://maps.app.goo.gl/qBG6aeHC6vNvA1af9",
         "location": "マドリード（スペイン）",
-        "answer": ["スペイン", "マドリード" ]
+        "answer": ["ヨーロッパ","スペイン", "マドリード" ]
     },
     {
         "link": "https://maps.app.goo.gl/13wu3h2dp5YANh2k6",
         "location": "ザグレブ（クロアチア）",
-        "answer": ["クロアチア", "ザグレブ" ]
+        "answer": ["ヨーロッパ","クロアチア", "ザグレブ" ]
     },
     {
         "link": "https://maps.app.goo.gl/cvY7NS1DiYHV4uZ2A",
         "location": "ウィーン（オーストリア）",
-        "answer": ["オーストリア", "ウィーン" ]
+        "answer": ["ヨーロッパ","オーストリア", "ウィーン" ]
     },
     {
         "link": "https://maps.app.goo.gl/q233kkkoyvtcwutR7",
         "location": "プラハ（チェコ）",
-        "answer": ["チェコ", "プラハ" ]
+        "answer": ["ヨーロッパ","チェコ", "プラハ" ]
     },
     {
         "link": "https://maps.app.goo.gl/51tWevFzekBM2akh6",
         "location": "ベオグラード（セルビア）",
-        "answer": ["セルビア", "ベオグラード" ]
+        "answer": ["ヨーロッパ","セルビア", "ベオグラード" ]
     },
     {
         "link": "https://maps.app.goo.gl/3xUnE41cxxLZ9Xd96",
         "location": "リュブリャナ（スロベニア）",
-        "answer": ["スロベニア", "リュブリャナ" ]
+        "answer": ["ヨーロッパ","スロベニア", "リュブリャナ" ]
     },
     {
         "link": "https://maps.app.goo.gl/8vpiM1E8KqCeMvgy7",
         "location": "ローマ（イタリア）",
-        "answer": ["イタリア", "ローマ" ]
+        "answer": ["ヨーロッパ","イタリア", "ローマ" ]
     },
     {
         "link": "https://maps.app.goo.gl/QKZb3jSCcVqGkkso7",
         "location": "ヴェネツィア（イタリア）",
-        "answer": ["イタリア", "ヴェネツィア" ]
+        "answer": ["ヨーロッパ","イタリア", "ヴェネツィア" ]
     },
     {
         "link": "https://maps.app.goo.gl/pR6G7UR1D89xqz6r8",
         "location": "シンガポール（都市国家）",
-        "answer": ["シンガポール"]
+        "answer": ["アジア","シンガポール"]
     },
     {
         "link": "https://maps.app.goo.gl/xwCC7KUrWdLgTz469",
         "location": "モナコ（都市国家）",
-        "answer": ["モナコ"]
+        "answer": ["ヨーロッパ","モナコ"]
     },
     {
         "link": "https://maps.app.goo.gl/QfEXofV4KiMFyyvu8",
         "location": "ストックホルム（スウェーデン）",
-        "answer": ["スウェーデン",  "ストックホルム" ]
+        "answer": ["ヨーロッパ","スウェーデン",  "ストックホルム" ]
     },
     {
         "link": "https://maps.app.goo.gl/CKQs5HickC498VDR8",
         "location": "ダブリン（アイルランド）",
-        "answer": ["アイルランド", "ダブリン" ]
+        "answer": ["ヨーロッパ","アイルランド", "ダブリン" ]
     },
     {
         "link": "https://maps.app.goo.gl/bdLLzSFDzhzGYuXC9",
         "location": "ブラチスラヴァ（スロバキア）",
-        "answer": ["スロバキア", "ブラチスラヴァ" ]
+        "answer": ["ヨーロッパ","スロバキア", "ブラチスラヴァ" ]
     },
     {
         "link": "https://maps.app.goo.gl/3hCkjZMDsi1uP5Qw8",
         "location": "ブリュッセル（ベルギー）",
-        "answer": ["ベルギー", "ブリュッセル" ]
+        "answer": ["ヨーロッパ","ベルギー", "ブリュッセル" ]
     },
     {
         "link": "https://maps.app.goo.gl/2hMgNFeMqo4PcuqD7",
         "location": "ヘルシンキ（フィンランド）",
-        "answer": ["フィンランド", "ヘルシンキ" ]
+        "answer": ["ヨーロッパ","フィンランド", "ヘルシンキ" ]
     },
     {
         "link": "https://maps.app.goo.gl/Z5F1CWpYGabKgSREA",
         "location": "ワルシャワ（ポーランド）",
-        "answer": ["ポーランド", "ワルシャワ" ]
+        "answer": ["ヨーロッパ","ポーランド", "ワルシャワ" ]
     },
     {
         "link": "https://maps.app.goo.gl/moHnQfya9RXPgDCf9",
         "location": "クラクフ（ポーランド）",
-        "answer": ["ポーランド", "クラクフ" ]
+        "answer": ["ヨーロッパ","ポーランド", "クラクフ" ]
     },
     {
         "link": "https://maps.app.goo.gl/xdRdG7Y3DF8eoVBS7",
         "location": "オスロ（ノルウェー）",
-        "answer": ["ノルウェー", "オスロ" ]
+        "answer": ["ヨーロッパ","ノルウェー", "オスロ" ]
     },
     {
         "link": "https://maps.app.goo.gl/mCR7gMeGcq7kc12Z9",
         "location": "ベルゲン（ノルウェー）",
-        "answer": ["ノルウェー", "ベルゲン" ]
+        "answer": ["ヨーロッパ","ノルウェー", "ベルゲン" ]
     },
     {
         "link": "https://maps.app.goo.gl/WAfGjR8wZfDGuZp59",
         "location": "ベルリン（ドイツ）",
-        "answer": ["ドイツ", "ベルリン" ]
+        "answer": ["ヨーロッパ","ドイツ", "ベルリン" ]
     },
     {
         "link": "https://maps.app.goo.gl/J5fzey4uuavboS6J7",
         "location": "フランクフルト（ドイツ）",
-        "answer": ["ドイツ", "フランクフルト" ]
+        "answer": ["ヨーロッパ","ドイツ", "フランクフルト" ]
     },
     {
         "link": "https://maps.app.goo.gl/Sr7bazp1w9YSJfbq9",
         "location": "ミュンヘン（ドイツ）",
-        "answer": ["ドイツ", "ミュンヘン" ]
+        "answer": ["ヨーロッパ","ドイツ", "ミュンヘン" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/anMTFhFKaFcmxKa36",
+        "location": "ケルン（ドイツ）",
+        "answer": ["ヨーロッパ","ドイツ", "ケルン" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/piXeu9YwPbjpj6H28",
+        "location": "ハンブルク（ドイツ）",
+        "answer": ["ヨーロッパ","ドイツ", "ハンブルク" ]
     },
     {
         "link": "https://maps.app.goo.gl/SjCJyubbWwWcaU5R7",
         "location": "タリン（エストニア）",
-        "answer": ["エストニア", "タリン" ]
+        "answer": ["ヨーロッパ","エストニア", "タリン" ]
     },
     {
         "link": "https://maps.app.goo.gl/HUcsFMJv2K1iQiGT6",
         "location": "リガ（ラトビア）",
-        "answer": ["ラトビア", "リガ" ]
+        "answer": ["ヨーロッパ","ラトビア", "リガ" ]
     },
     {
         "link": "https://maps.app.goo.gl/CikV5EXnJExMdSbU6",
         "location": "オークランド（ニュージーランド）",
-        "answer": ["ニュージーランド", "オークランド" ]
+        "answer": ["オセアニア","ニュージーランド", "オークランド" ]
     },
     {
         "link": "https://maps.app.goo.gl/ueQkTFWV9X4hTY727",
         "location": "ウェリントン（ニュージーランド）",
-        "answer": ["ニュージーランド", "ウェリントン" ]
+        "answer": ["オセアニア","ニュージーランド", "ウェリントン" ]
     },
     {
         "link": "https://maps.app.goo.gl/5rmPMuEYCGEjGJzU9",
         "location": "ピサ（イタリア）",
-        "answer": ["イタリア", "ピサ" ]
+        "answer": ["ヨーロッパ","イタリア", "ピサ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/tr16Ena2nkXLQZo47",
+        "location": "ミラノ（イタリア）",
+        "answer": ["ヨーロッパ","イタリア", "ミラノ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/UJxHvgNRB6AqPTjeA",
+        "location": "ナポリ（イタリア）",
+        "answer": ["ヨーロッパ","イタリア", "ナポリ" ]
     },
     {
         "link": "https://maps.app.goo.gl/phx8EiRVrmopqFWu7",
         "location": "チューリッヒ（スイス）",
-        "answer": ["スイス", "チューリッヒ" ]
+        "answer": ["ヨーロッパ","スイス", "チューリッヒ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/C554ReM4ZDYKLybM6",
+        "location": "ベルン（スイス）",
+        "answer": ["ヨーロッパ","スイス", "ベルン" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/sULRx5myhS69tCFMA",
+        "location": "ジュネーヴ（スイス）",
+        "answer": ["ヨーロッパ","スイス", "ジュネーヴ" ]
     },
     {
         "link": "https://maps.app.goo.gl/4Yn39zxPtwJNFoMt7",
         "location": "ジャカルタ（インドネシア）",
-        "answer": ["インドネシア", "ジャカルタ" ]
+        "answer": ["アジア","インドネシア", "ジャカルタ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/vyqXvPaRXguNjftV6",
+        "location": "バンドン（インドネシア）",
+        "answer": ["アジア","インドネシア", "バンドン" ]
     },
     {
         "link": "https://maps.app.goo.gl/BwmS4bu8HLAP1k9fA",
         "location": "クアラルンプール（マレーシア）",
-        "answer": ["マレーシア", "クアラルンプール" ]
+        "answer": ["アジア","マレーシア", "クアラルンプール" ]
     },
     {
         "link": "https://maps.app.goo.gl/gyytkYTkxEcr3WKi9",
         "location": "マニラ市（フィリピン）",
-        "answer": ["フィリピン", "マニラ" ]
+        "answer": ["アジア","フィリピン", "マニラ" ]
     },
     {
         "link": "https://maps.app.goo.gl/nyUZ6rRhiH7ofbvF6",
         "location": "ダバオ市（フィリピン）",
-        "answer": ["フィリピン", "ダバオ" ]
+        "answer": ["アジア","フィリピン", "ダバオ" ]
     },
     {
         "link": "https://maps.app.goo.gl/D3SXqLiNHEwtV7zeA",
         "location": "セブ市（フィリピン）",
-        "answer": ["フィリピン", "セブ" ]
+        "answer": ["アジア","フィリピン", "セブ" ]
     },
     {
         "link": "https://maps.app.goo.gl/tHRU7rkuUn3B6HmP6",
         "location": "アスタナ（カザフスタン）",
-        "answer": ["カザフスタン", "アスタナ" ]
+        "answer": ["アジア","カザフスタン", "アスタナ" ]
     },
     {
         "link": "https://maps.app.goo.gl/5gB4ysCYsUPRmNqV7",
         "location": "イスタンブール（トルコ）",
-        "answer": ["トルコ", "イスタンブール" ]
+        "answer": ["ヨーロッパ","トルコ", "イスタンブール" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/ogWeQ2SmR8h6aCXE6",
+        "location": "アンカラ（トルコ）",
+        "answer": ["ヨーロッパ","トルコ", "アンカラ" ]
     },
     {
         "link": "https://maps.app.goo.gl/Rc7HXegwZqVDCCmH8",
         "location": "メキシコシティ（メキシコ）",
-        "answer": ["メキシコ", "メキシコシティ" ]
+        "answer": ["北アメリカ","メキシコ", "メキシコシティ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/PoqHAbgpHpv5SWSY7",
+        "location": "グアダラハラ（メキシコ）",
+        "answer": ["北アメリカ","メキシコ", "グアダラハラ" ]
+    },
+    {
+        "link": "https://maps.app.goo.gl/1JJXQy1YgWvdBVRk8",
+        "location": "モンテレイ（メキシコ）",
+        "answer": ["北アメリカ","メキシコ", "モンテレイ" ]
     },
     {
         "link": "https://maps.app.goo.gl/q9BpJqE83LW6zLt29",
         "location": "アテネ（ギリシャ）",
-        "answer": ["ギリシャ", "アテネ" ]
+        "answer": ["ヨーロッパ","ギリシャ", "アテネ" ]
     },
     {
         "link": "https://maps.app.goo.gl/TaKpK7VJdjCgfAH87",
         "location": "ケープタウン（南アフリカ）",
-        "answer": ["南アフリカ", "ケープタウン" ]
+        "answer": ["アフリカ","南アフリカ", "ケープタウン" ]
     },
     {
         "link": "https://maps.app.goo.gl/nLR9qLCN4x8KFryD6",
         "location": "ヨハネスブルグ（南アフリカ）",
-        "answer": ["南アフリカ", "ヨハネスブルグ" ]
+        "answer": ["アフリカ","南アフリカ", "ヨハネスブルグ" ]
     },
     {
         "link": "https://maps.app.goo.gl/z6ZUjC43SHF8Qrva9",
         "location": "ナイロビ（ケニア）",
-        "answer": ["ケニア", "ナイロビ" ]
+        "answer": ["アフリカ","ケニア", "ナイロビ" ]
     },
     {
         "link": "https://maps.app.goo.gl/D5nqJyijcWwhKA3m9",
         "location": "キガリ（ルワンダ）",
-        "answer": ["ルワンダ", "キガリ" ]
+        "answer": ["アフリカ","ルワンダ", "キガリ" ]
     },
     {
         "link": "https://maps.app.goo.gl/qXpj8bns2ZY5MZXB6",
         "location": "バンコク（タイ）",
-        "answer": ["タイ", "バンコク"]
+        "answer": ["アジア","タイ", "バンコク"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/HUuuXgTZwjCAtH6v6",
+        "location": "チェンマイ（タイ）",
+        "answer": ["アジア","タイ", "チェンマイ"]
     },
     {
         "link": "https://maps.app.goo.gl/CrMvt7r7txe6WS1YA",
         "location": "ヴィエンチャン（ラオス）",
-        "answer": ["ラオス", "ヴィエンチャン"]
+        "answer": ["アジア","ラオス", "ヴィエンチャン"]
     },
     {
         "link": "https://maps.app.goo.gl/rpeCAFDPcRetFvgK6",
         "location": "プノンペン（カンボジア）",
-        "answer": ["カンボジア", "プノンペン"]
+        "answer": ["アジア","カンボジア", "プノンペン"]
     },
     {
         "link": "https://maps.app.goo.gl/39ZRnj53oJ7QXPmG9",
         "location": "ソウル特別市（韓国）",
-        "answer": ["韓国", "ソウル"]
+        "answer": ["アジア","韓国", "ソウル"]
     },
     {
         "link": "https://maps.app.goo.gl/zMA8FheneDPeUTfF7",
         "location": "釜山広域市（韓国）",
-        "answer": ["韓国", "釜山"]
+        "answer": ["アジア","韓国", "釜山"]
     },
     {
         "link": "https://maps.app.goo.gl/YmrkkhmQGhu6Vbzi6",
         "location": "大邱広域市（韓国）",
-        "answer": ["韓国", "大邱"]
+        "answer": ["アジア","韓国", "大邱"]
     },
     {
         "link": "https://maps.app.goo.gl/FhtPVgWRGJe1aBnNA",
         "location": "大田広域市（韓国）",
-        "answer": ["韓国", "大田"]
+        "answer": ["アジア","韓国", "大田"]
     },
     {
         "link": "https://maps.app.goo.gl/oaTucjhhTnwuwH2x7",
         "location": "ムンバイ（インド）",
-        "answer": ["インド", "ムンバイ"]
+        "answer": ["アジア","インド", "ムンバイ"]
     },
     {
         "link": "https://maps.app.goo.gl/mXecasDwfSaYhRuW9",
         "location": "ベンガルール（インド）",
-        "answer": ["インド", "ベンガルール"]
+        "answer": ["アジア","インド", "ベンガルール"]
     },
     {
         "link": "https://maps.app.goo.gl/q6oERixhtnyygGS46",
         "location": "コルカタ（インド）",
-        "answer": ["インド", "コルカタ"]
+        "answer": ["アジア","インド", "コルカタ"]
     },
     {
         "link": "https://maps.app.goo.gl/ZzAYdSbZJnL1BDz5A",
         "location": "デリー（インド）",
-        "answer": ["インド", "デリー"]
+        "answer": ["アジア","インド", "デリー"]
     },
     {
         "link": "https://maps.app.goo.gl/qpGCV9GU21aoMgfx5",
         "location": "ハイデラバード（インド）",
-        "answer": ["インド", "ハイデラバード"]
+        "answer": ["アジア","インド", "ハイデラバード"]
     },
     {
         "link": "https://maps.app.goo.gl/m19ucBNSoNE28oCeA",
         "location": "ラパス（ボリビア）",
-        "answer": ["ボリビア", "ラパス"]
+        "answer": ["南アメリカ","ボリビア", "ラパス"]
     },
     {
         "link": "https://maps.app.goo.gl/Esbj178e7C8oJoqW7",
         "location": "ダッカ（バングラデシュ）",
-        "answer": ["バングラデシュ", "ダッカ"]
+        "answer": ["アジア","バングラデシュ", "ダッカ"]
     },
     {
         "link": "https://maps.app.goo.gl/uprdMnqQhExXd3Ac7",
         "location": "ウランバートル（モンゴル）",
-        "answer": ["モンゴル", "ウランバートル"]
+        "answer": ["アジア","モンゴル", "ウランバートル"]
     },
     {
         "link": "https://maps.app.goo.gl/GHHRyit7Hd6BTHSM6",
         "location": "キト（エクアドル）",
-        "answer": ["エクアドル", "キト"]
+        "answer": ["南アメリカ","エクアドル", "キト"]
     },
     {
         "link": "https://maps.app.goo.gl/oPCHhDqTWidKfBzv9",
         "location": "ボゴタ（コロンビア）",
-        "answer": ["コロンビア", "ボゴタ"]
+        "answer": ["南アメリカ","コロンビア", "ボゴタ"]
     },
     {
         "link": "https://maps.app.goo.gl/XtBa7oV9VBEt5yEt9",
         "location": "バレッタ（マルタ）",
-        "answer": ["マルタ", "バレッタ"]
+        "answer": ["ヨーロッパ","マルタ", "バレッタ"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/kAEiz4q8daVVUuaG8",
+        "location": "マカオ（中国）",
+        "answer": ["アジア","中国", "マカオ"]
     },
     {
         "link": "https://maps.app.goo.gl/QAdvp4VuVenEKzpL7",
-        "location": "九龍（香港）",
-        "answer": ["香港", "九龍"]
+        "location": "香港（中国）",
+        "answer": ["アジア","中国", "香港"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/2oJjknHczS6AcFgi6",
+        "location": "上海（中国）",
+        "answer": ["アジア","中国", "上海"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/FCSFMC9g4wmydma98",
+        "location": "北京（中国）",
+        "answer": ["アジア","中国", "北京"]
+    },
+    {
+        "link": "https://maps.app.goo.gl/1opAWYhBfFLSnRFa6",
+        "location": "深圳（中国）",
+        "answer": ["アジア","中国", "深圳"]
     },
     {
         "link": "https://maps.app.goo.gl/JTtLmv9FRMdAETHK8",
         "location": "当別町（日本）",
-        "answer": ["日本", "当別"]
+        "answer": ["アジア","日本", "当別"]
     },
     {
         "link": "https://maps.app.goo.gl/sc98xMvJB5E2CyFx6",
         "location": "伊豆市（日本）",
-        "answer": ["日本", "伊豆"]
+        "answer": ["アジア","日本", "伊豆"]
     },
     {
         "link": "https://maps.app.goo.gl/UqMQAH1yoPGHhtMu8",
         "location": "有田町（日本）",
-        "answer": ["日本", "有田"]
+        "answer": ["アジア","日本", "有田"]
     },
     {
         "link": "https://maps.app.goo.gl/9wzArKSZ6LjniRF57",
         "location": "大阪市（日本）",
-        "answer": ["日本", "大阪"]
+        "answer": ["アジア","日本", "大阪"]
     },
     {
         "link": "https://maps.app.goo.gl/QTPz2zQHXWJ644KUA",
         "location": "港区（日本）",
-        "answer": ["日本", "港"]
+        "answer": ["アジア","日本", "港"]
     },
     {
         "link": "https://maps.app.goo.gl/4S3q8qwZREp8VLR28",
         "location": "仙台市（日本）",
-        "answer": ["日本", "仙台"]
+        "answer": ["アジア","日本", "仙台"]
     }
 ]
