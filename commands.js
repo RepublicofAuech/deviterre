@@ -257,23 +257,22 @@ export async function handleGuess(message) {
 
             const embed = new EmbedBuilder()
                 .setTitle('正解！')
-                .setDescription(`${correctUser.username}さんが一番最初に正解したよ！\n答えはここ: ${currentLocation}\nリンク: [Google Mapsで確認しよう！](${currentLink})\n${scoreToAdd}点獲得！`);
+                .setDescription(`${correctUser}さんが正解したよ！\n__**答えはここ： ${currentLocation}**__\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`);
 
             await message.channel.send({ embeds: [embed] });
 
+            // ゲームデータをリセット
             currentAnswers = null;
             currentLocation = null;
             currentLink = null;
             currentQuestionMessage = null;
-            currentMode = null;
             correctUser = null;
-
-            console.log(`Correct answer by ${correctUser.tag}: ${message.content}`);
+            currentMode = null;
         } else {
             await message.react('❌');
-            console.log(`Incorrect answer by ${message.author.tag}: ${message.content}`);
         }
     } else if (scoreToAdd > 0) {
+        // ゲームが進行中でない場合にスコアを追加する処理
         if (!userScores[currentMode]) {
             userScores[currentMode] = {};
         }
@@ -285,23 +284,11 @@ export async function handleGuess(message) {
 
         const embed = new EmbedBuilder()
             .setTitle('正解！')
-            .setDescription(`${message.author.username}さんが一番最初に正解したよ！\n答えはここ: ${currentLocation}\n[Google Mapsで確認しよう！](${currentLink})\n${scoreToAdd}点獲得！`);
+            .setDescription(`${message.author}さんが正解したよ！\n__**答えはここ： ${currentLocation}**__\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`);
 
         await message.channel.send({ embeds: [embed] });
-
-        gameInProgress = false; // 正解が出たのでゲームを終了
-
-        currentAnswers = null;
-        currentLocation = null;
-        currentLink = null;
-        currentQuestionMessage = null;
-        currentMode = null;
-        correctUser = null;
-
-        console.log(`Correct answer by ${message.author.tag}: ${message.content}`);
     } else {
         await message.react('❌');
-        console.log(`Incorrect answer by ${message.author.tag}: ${message.content}`);
     }
 }
 
