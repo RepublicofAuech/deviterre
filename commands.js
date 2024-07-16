@@ -114,7 +114,7 @@ export async function registerCommands(client) {
 export async function handleCommand(interaction) {
     if (interaction.commandName === 'gamestart') {
         if (gameInProgress) {
-            await interaction.reply('ゲームはすでに進行中です！');
+            await interaction.reply('すでに進行中です');
             return;
         }
 
