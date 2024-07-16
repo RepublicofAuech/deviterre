@@ -288,6 +288,14 @@ export async function handleGuess(message) {
             .setDescription(`${message.author}さんが一番乗りで正解したよ！\n__**答えはここ： ${currentLocation}**__\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`);
 
         await message.channel.send({ embeds: [embed] });
+        // ゲームデータをリセット
+        currentAnswers = null;
+        currentLocation = null;
+        currentLink = null;
+        currentQuestionMessage = null;
+        correctUser = null;
+        currentMode = null;
+        gameInProgress = false;
     } else {
         await message.react('❌');
     }
