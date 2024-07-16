@@ -151,7 +151,11 @@ export async function handleCommand(interaction) {
             console.log(`Answers for this round: ${currentAnswers.join(', ')}`);
         } catch (error) {
             console.error('Error fetching street view image:', error);
-            await interaction.followUp('ストリートビューの画像を取得できませんでした');
+            if (interaction.replied || interaction.deferred) {
+                await interaction.followUp('ストリートビューの画像を取得できませんでした');
+            } else {
+                await interaction.reply('ストリートビューの画像を取得できませんでした');
+            }
             gameInProgress = false; // エラーが発生した場合はゲームを終了
         }
     } else if (interaction.commandName === 'score') {
