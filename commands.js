@@ -14,6 +14,7 @@ let currentLocation = null;
 let currentLink = null;
 let currentQuestionMessage = null;
 let currentMode = null;
+let gameInProgress = false; // ゲームの進行状況を管理する変数
 
 // ユーザーのスコアを管理するオブジェクト
 let userScores = {
@@ -116,11 +117,12 @@ export async function registerCommands(client) {
 // スラッシュコマンドの処理を行う関数
 export async function handleCommand(interaction) {
     if (interaction.commandName === 'gamestart') {
-        if (currentQuestionMessage) {
-            await interaction.reply('ゲームはすでに進行中です！');
+        if (gameInProgress) {
+            await interaction.reply('すでに進行中です');
             return;
         }
 
+        gameInProgress = true;
         await interaction.deferReply();
 
         const region = interaction.options.getString('モード'); // 修正
@@ -150,6 +152,7 @@ export async function handleCommand(interaction) {
         } catch (error) {
             console.error('Error fetching street view image:', error);
             await interaction.followUp('ストリートビューの画像を取得できませんでした');
+            gameInProgress = false; // エラーが発生した場合はゲームを終了
         }
     } else if (interaction.commandName === 'score') {
         const mode = interaction.options.getString('モード'); // 修正
@@ -241,6 +244,7 @@ export async function handleGuess(message) {
     if (message.reference && message.reference.messageId === currentQuestionMessage.id) {
         if (scoreToAdd > 0) {
             correctUser = message.author;
+            gameInProgress = false; // 正解が出たのでゲームを終了
 
             if (!userScores[currentMode]) {
                 userScores[currentMode] = {};
@@ -253,7 +257,7 @@ export async function handleGuess(message) {
 
             const embed = new EmbedBuilder()
                 .setTitle('正解！')
-                .setDescription(`${correctUser}さんが正解したよ！\n__**答えはここ： ${currentLocation}**__\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`);
+                .setDescription(`${correctUser.username}さんが一番最初に正解したよ！\n答えはここ: ${currentLocation}\nリンク: [Google Mapsで確認しよう！](${currentLink})\n${scoreToAdd}点獲得！`);
 
             await message.channel.send({ embeds: [embed] });
 
@@ -261,8 +265,8 @@ export async function handleGuess(message) {
             currentLocation = null;
             currentLink = null;
             currentQuestionMessage = null;
-            correctUser = null;
             currentMode = null;
+            correctUser = null;
 
             console.log(`Correct answer by ${correctUser.tag}: ${message.content}`);
         } else {
@@ -281,9 +285,18 @@ export async function handleGuess(message) {
 
         const embed = new EmbedBuilder()
             .setTitle('正解！')
-            .setDescription(`${message.author}さんが正解したよ！\n__**答えはここ： ${currentLocation}**__\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`);
+            .setDescription(`${message.author.username}さんが一番最初に正解したよ！\n答えはここ: ${currentLocation}\n[Google Mapsで確認しよう！](${currentLink})\n${scoreToAdd}点獲得！`);
 
         await message.channel.send({ embeds: [embed] });
+
+        gameInProgress = false; // 正解が出たのでゲームを終了
+
+        currentAnswers = null;
+        currentLocation = null;
+        currentLink = null;
+        currentQuestionMessage = null;
+        currentMode = null;
+        correctUser = null;
 
         console.log(`Correct answer by ${message.author.tag}: ${message.content}`);
     } else {
