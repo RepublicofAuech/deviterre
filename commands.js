@@ -2,7 +2,6 @@ import { REST, Routes, EmbedBuilder } from 'discord.js';
 import { getRandomStreetViewImage } from './getStreetView.js';
 import { promises as fs } from 'fs';
 
-// DiscordアプリケーションのクライアントIDとトークンを設定
 const CLIENT_ID = process.env.CLIENT_ID;
 const TOKEN = process.env.TOKEN;
 const ADMIN_ROLE_ID = process.env.ADMIN_ROLE_ID;
@@ -14,9 +13,8 @@ let currentLocation = null;
 let currentLink = null;
 let currentQuestionMessage = null;
 let currentMode = null;
-let gameInProgress = false; // ゲームの進行状況を管理する変数
+let gameInProgress = false;
 
-// ユーザーのスコアを管理するオブジェクト
 let userScores = {
     japan: {},
     world: {}
@@ -29,7 +27,7 @@ const commands = [
         options: [
             {
                 name: 'モード',
-                type: 3, // 'STRING' type
+                type: 3,
                 description: 'モードを選んでね！',
                 required: true,
                 choices: [
@@ -51,7 +49,7 @@ const commands = [
         options: [
             {
                 name: 'モード',
-                type: 3, // 'STRING' type
+                type: 3,
                 description: '確認したいモードを選んでね！',
                 required: true,
                 choices: [
@@ -73,7 +71,7 @@ const commands = [
         options: [
             {
                 name: 'モード',
-                type: 3, // 'STRING' type
+                type: 3,
                 description: '確認したいモードを選んでね！',
                 required: true,
                 choices: [
@@ -96,7 +94,6 @@ const commands = [
     }
 ];
 
-// スラッシュコマンドをDiscordに登録する関数
 export async function registerCommands(client) {
     const rest = new REST({ version: '10' }).setToken(TOKEN);
 
@@ -114,7 +111,6 @@ export async function registerCommands(client) {
     }
 }
 
-// スラッシュコマンドの処理を行う関数
 export async function handleCommand(interaction) {
     if (interaction.commandName === 'gamestart') {
         if (gameInProgress) {
@@ -123,9 +119,10 @@ export async function handleCommand(interaction) {
         }
 
         gameInProgress = true;
+        console.log('Game started');
         await interaction.deferReply();
 
-        const region = interaction.options.getString('モード'); // 修正
+        const region = interaction.options.getString('モード');
 
         try {
             const { imagePath, link, location, answer } = await getRandomStreetViewImage(region);
@@ -145,7 +142,6 @@ export async function handleCommand(interaction) {
                 files: [{ attachment: imagePath, name: 'streetview.png' }]
             });
 
-            // スクリーンショットファイルを削除
             await fs.unlink(imagePath);
 
             console.log(`Answers for this round: ${currentAnswers.join(', ')}`);
@@ -156,10 +152,11 @@ export async function handleCommand(interaction) {
             } else {
                 await interaction.reply('ストリートビューの画像を取得できませんでした');
             }
-            gameInProgress = false; // エラーが発生した場合はゲームを終了
+            gameInProgress = false;
+            console.log('Game ended due to error');
         }
     } else if (interaction.commandName === 'score') {
-        const mode = interaction.options.getString('モード'); // 修正
+        const mode = interaction.options.getString('モード');
         if (!mode || !userScores[mode]) {
             await interaction.reply('無効なモードが指定されました');
             return;
@@ -173,7 +170,7 @@ export async function handleCommand(interaction) {
 
         await interaction.reply({ embeds: [embed] });
     } else if (interaction.commandName === 'leaderboard') {
-        const mode = interaction.options.getString('モード'); // 修正
+        const mode = interaction.options.getString('モード');
         if (!mode || !userScores[mode]) {
             await interaction.reply('無効なモードが指定されました');
             return;
@@ -207,7 +204,7 @@ export async function handleCommand(interaction) {
         }
     } else if (interaction.commandName === 'reset') {
         if (interaction.member.roles.cache.has(ADMIN_ROLE_ID)) {
-            userScores = { japan: {}, world: {} }; // スコアをリセット
+            userScores = { japan: {}, world: {} };
 
             const embed = new EmbedBuilder()
                 .setTitle('全員の得点をリセットしました');
@@ -224,7 +221,6 @@ export async function handleCommand(interaction) {
 export async function handleGuess(message) {
     if (!currentAnswers || correctUser || !currentMode) return;
 
-    // 指定されたチャンネルからのメッセージであることを確認
     if (message.channel.id !== GUESS_CHANNEL_ID) {
         return;
     }
@@ -233,6 +229,7 @@ export async function handleGuess(message) {
     console.log('Current answers:', currentAnswers);
     console.log('Message reference:', message.reference ? message.reference.messageId : 'No reference');
     console.log('Current question message ID:', currentQuestionMessage.id);
+    console.log('Game in progress:', gameInProgress);
 
     const guess = message.content.trim().toLowerCase();
     console.log('User guess:', guess);
@@ -260,7 +257,7 @@ export async function handleGuess(message) {
 
             const embed = new EmbedBuilder()
                 .setTitle('正解！')
-                .setDescription(`${correctUser}さんが正解したよ！\n__**答えはここ： ${currentLocation}**__\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`);
+                .setDescription(`${correctUser}さんが一番乗りで正解したよ！\n__**答えはここ： ${currentLocation}**__\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`);
 
             await message.channel.send({ embeds: [embed] });
 
@@ -271,12 +268,12 @@ export async function handleGuess(message) {
             currentQuestionMessage = null;
             correctUser = null;
             currentMode = null;
-            gameInProgress = false; // ゲームが終了したことを設定
+            gameInProgress = false;
+            console.log('Game ended successfully');
         } else {
             await message.react('❌');
         }
     } else if (scoreToAdd > 0) {
-        // ゲームが進行中でない場合にスコアを追加する処理
         if (!userScores[currentMode]) {
             userScores[currentMode] = {};
         }
@@ -288,7 +285,7 @@ export async function handleGuess(message) {
 
         const embed = new EmbedBuilder()
             .setTitle('正解！')
-            .setDescription(`${message.author}さんが正解したよ！\n__**答えはここ： ${currentLocation}**__\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`);
+            .setDescription(`${message.author}さんが一番乗りで正解したよ！\n__**答えはここ： ${currentLocation}**__\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`);
 
         await message.channel.send({ embeds: [embed] });
     } else {
