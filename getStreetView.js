@@ -44,20 +44,28 @@ export async function getRandomStreetViewImage(region) {
                     });
                 });
 
-                // ストリートビューの画像が完全に読み込まれるまで待機
-                await page.waitForSelector('#scene', { visible: true, timeout: 30000 });
+                // ストリートビューの画面が完全に読み込まれるまで待機
+                try {
+                    await page.waitForSelector('.widget-scene-canvas', { timeout: 60000 });
+                } catch (error) {
+                    console.error('ストリートビューの画面が読み込まれるのを待機中にエラーが発生しました:', error);
+                    await browser.close();
+                    continue;
+                }
 
-                // スクリーンショットを撮る前に1.5秒待機
-                await new Promise(resolve => setTimeout(resolve, 1500));
+                // スクリーンショットを撮る前に3秒待機
+                await new Promise(resolve => setTimeout(resolve, 3000));
 
                 // ストリートビューの画像が存在するか確認
-                const sceneExists = await page.$('#scene');
+                const sceneExists = await page.$('.widget-scene-canvas');
                 if (sceneExists) {
                     const screenshotPath = 'streetview.png';
                     await page.screenshot({ path: screenshotPath });
 
                     await browser.close();
                     return { imagePath: screenshotPath, link, location, answer };
+                } else {
+                    console.error('ストリートビューの画面が見つかりませんでした。');
                 }
             } catch (error) {
                 console.error('Error taking screenshot:', error);
