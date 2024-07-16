@@ -44,11 +44,14 @@ export async function getRandomStreetViewImage(region) {
                     });
                 });
 
+                // ストリートビューの画像が完全に読み込まれるまで待機
+                await page.waitForSelector('#scene', { visible: true, timeout: 30000 });
+
                 // スクリーンショットを撮る前に1.5秒待機
                 await new Promise(resolve => setTimeout(resolve, 1500));
 
                 // ストリートビューの画像が存在するか確認
-                const sceneExists = await page.$('.widget-scene-canvas');
+                const sceneExists = await page.$('#scene');
                 if (sceneExists) {
                     const screenshotPath = 'streetview.png';
                     await page.screenshot({ path: screenshotPath });
