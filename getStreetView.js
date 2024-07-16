@@ -1,7 +1,6 @@
 import puppeteer from 'puppeteer';
 import { promises as fs } from 'fs';
 
-// ランダムなStreet Viewの画像を取得する関数
 export async function getRandomStreetViewImage(region) {
     const filePath = region === 'japan' ? 'japancoord.json' : 'worldcoord.json';
     const links = await loadLinksFromFile(filePath);
@@ -18,7 +17,6 @@ export async function getRandomStreetViewImage(region) {
         const success = await navigateWithRetry(page, link);
         if (success) {
             try {
-                // スクリプトを挿入して不要なエレメントを削除
                 await page.evaluate(() => {
                     const elementsToRemove = [
                         '.scene-footer-container',
@@ -44,18 +42,15 @@ export async function getRandomStreetViewImage(region) {
                     });
                 });
 
-                // ストリートビューの画面が完全に読み込まれるまで待機
                 try {
                     await page.waitForSelector('.widget-scene-canvas', { timeout: 60000 });
                 } catch (error) {
                     console.error('ストリートビューの画面が読み込まれるのを待機中にエラーが発生しました:', error);
-                    continue; // ループの次のイテレーションに進む
+                    continue;
                 }
 
-                // スクリーンショットを撮る前に3秒待機
                 await new Promise(resolve => setTimeout(resolve, 3000));
 
-                // ストリートビューの画像が存在するか確認
                 const sceneExists = await page.$('.widget-scene-canvas');
                 if (sceneExists) {
                     const screenshotPath = 'streetview.png';
@@ -64,7 +59,7 @@ export async function getRandomStreetViewImage(region) {
                     await browser.close();
                     return { imagePath: screenshotPath, link, location, answer };
                 } else {
-                    console.error('ストリートビューの画面が見つかりませんでした。');
+                    console.error('ストリートビューの画面が見つかりませんでした');
                 }
             } catch (error) {
                 console.error('スクリーンショットの取得中にエラーが発生しました:', error);
@@ -76,13 +71,13 @@ export async function getRandomStreetViewImage(region) {
 async function navigateWithRetry(page, url, attempts = 3) {
     for (let i = 0; i < attempts; i++) {
         try {
-            await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 }); // タイムアウトを60秒に設定
-            return true; // 成功した場合は true を返す
+            await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
+            return true;
         } catch (error) {
             console.error(`Error navigating to ${url} (attempt ${i + 1} of ${attempts}):`, error);
         }
     }
-    return false; // すべての試行が失敗した場合は false を返す
+    return false;
 }
 
 async function loadLinksFromFile(filePath) {
