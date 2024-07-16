@@ -132,7 +132,7 @@ export async function handleCommand(interaction) {
             const embed = new EmbedBuilder()
                 .setTitle('Deviterreの場所当てゲーム')
                 .setImage('attachment://streetview.png')
-                .setDescription(`この写真が撮影された国または地域を答えてね！地域か市区町村まで答えると得点が高くなるよ！\n__**答えるときはこのメッセージに返信してね！**__`);
+                .setDescription(`この写真が撮影された国または地域を答えてね！\n__**地域か市区町村まで答えると得点が高くなるよ！**__`);
 
             currentAnswers = answer.map(ans => ans.toLowerCase());
             currentLocation = location;
