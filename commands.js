@@ -132,7 +132,7 @@ export async function handleCommand(interaction) {
             const embed = new EmbedBuilder()
                 .setTitle('Deviterreの場所当てゲーム')
                 .setImage('attachment://streetview.png')
-                .setDescription(`この写真が撮影された国または地域を答えてね！\n__**地域か市区町村まで答えると得点が高くなるよ！**__`);
+                .setDescription(`この写真が撮影された国または地域を答えてね！地域か市区町村まで答えると得点が高くなるよ！\n__**答えるときはこのメッセージに返信してね！**__`);
 
             currentAnswers = answer.map(ans => ans.toLowerCase());
             currentLocation = location;
@@ -248,7 +248,6 @@ export async function handleGuess(message) {
     if (message.reference && message.reference.messageId === currentQuestionMessage.id) {
         if (scoreToAdd > 0) {
             correctUser = message.author;
-            gameInProgress = false; // 正解が出たのでゲームを終了
 
             if (!userScores[currentMode]) {
                 userScores[currentMode] = {};
@@ -272,6 +271,7 @@ export async function handleGuess(message) {
             currentQuestionMessage = null;
             correctUser = null;
             currentMode = null;
+            gameInProgress = false; // ゲームが終了したことを設定
         } else {
             await message.react('❌');
         }
