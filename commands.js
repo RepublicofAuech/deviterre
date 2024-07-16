@@ -118,7 +118,7 @@ export async function registerCommands(client) {
 export async function handleCommand(interaction) {
     if (interaction.commandName === 'gamestart') {
         if (gameInProgress) {
-            await interaction.reply('すでに進行中です');
+            await interaction.reply('ゲームはすでに進行中です！');
             return;
         }
 
@@ -132,7 +132,7 @@ export async function handleCommand(interaction) {
             const embed = new EmbedBuilder()
                 .setTitle('Deviterreの場所当てゲーム')
                 .setImage('attachment://streetview.png')
-                .setDescription(`この写真が撮影された国または地域を答えてね！\n__**地域か市区町村まで答えると得点が高くなるよ！**__`);
+                .setDescription(`この写真が撮影された国または地域を答えてね！地域か市区町村まで答えると得点が高くなるよ！\n__**答えるときはこのメッセージに返信してね！**__`);
 
             currentAnswers = answer.map(ans => ans.toLowerCase());
             currentLocation = location;
