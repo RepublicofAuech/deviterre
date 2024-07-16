@@ -49,8 +49,7 @@ export async function getRandomStreetViewImage(region) {
                     await page.waitForSelector('.widget-scene-canvas', { timeout: 60000 });
                 } catch (error) {
                     console.error('ストリートビューの画面が読み込まれるのを待機中にエラーが発生しました:', error);
-                    await browser.close();
-                    continue;
+                    continue; // ループの次のイテレーションに進む
                 }
 
                 // スクリーンショットを撮る前に3秒待機
@@ -68,7 +67,7 @@ export async function getRandomStreetViewImage(region) {
                     console.error('ストリートビューの画面が見つかりませんでした。');
                 }
             } catch (error) {
-                console.error('Error taking screenshot:', error);
+                console.error('スクリーンショットの取得中にエラーが発生しました:', error);
             }
         }
     }
