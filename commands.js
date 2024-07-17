@@ -234,6 +234,13 @@ export async function handleGuess(message) {
     const guess = message.content.trim().toLowerCase();
     console.log('User guess:', guess);
 
+    const guessWords = guess.split(/\s+/);
+    const validGuesses = guessWords.filter(word => currentAnswers.includes(word));
+    if (validGuesses.length > 1) {
+        await message.reply('※回答できるのは1メッセージにつき1つです');
+        return;
+    }
+
     const answerIndex = currentAnswers.findIndex(answer => guess.includes(answer));
     console.log('Answer index:', answerIndex);
 
