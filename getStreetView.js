@@ -1,6 +1,23 @@
 import puppeteer from 'puppeteer';
 import { promises as fs } from 'fs';
 
+async function loadLinksFromFile(filePath) {
+    const data = await fs.readFile(filePath, 'utf-8');
+    return JSON.parse(data);
+}
+
+async function navigateWithRetry(page, url, attempts = 3) {
+    for (let i = 0; i < attempts; i++) {
+        try {
+            await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
+            return true;
+        } catch (error) {
+            console.error(`Error navigating to ${url} (attempt ${i + 1} of ${attempts}):`, error);
+        }
+    }
+    return false;
+}
+
 export async function getRandomStreetViewImage(region) {
     const filePath = region === 'japan' ? 'japancoord.json' : 'worldcoord.json';
     const links = await loadLinksFromFile(filePath);
@@ -66,21 +83,4 @@ export async function getRandomStreetViewImage(region) {
             }
         }
     }
-}
-
-async function navigateWithRetry(page, url, attempts = 3) {
-    for (let i = 0; i < attempts; i++) {
-        try {
-            await page.goto(url, { waitUntil: 'networkidle2', timeout: 60000 });
-            return true;
-        } catch (error) {
-            console.error(`Error navigating to ${url} (attempt ${i + 1} of ${attempts}):`, error);
-        }
-    }
-    return false;
-}
-
-async function loadLinksFromFile(filePath) {
-    const data = await fs.readFile(filePath, 'utf-8');
-    return JSON.parse(data);
 }
