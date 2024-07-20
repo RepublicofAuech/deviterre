@@ -13,7 +13,7 @@ let currentLocation = null;
 let currentLink = null;
 let currentQuestionMessage = null;
 let currentMode = null;
-let gameInProgress = false;
+let gameInProgress = false; 
 
 let userScores = {
     japan: {},
@@ -27,7 +27,7 @@ const commands = [
         options: [
             {
                 name: 'モード',
-                type: 3,
+                type: 3, 
                 description: 'モードを選んでね！',
                 required: true,
                 choices: [
@@ -49,7 +49,7 @@ const commands = [
         options: [
             {
                 name: 'モード',
-                type: 3,
+                type: 3, 
                 description: '確認したいモードを選んでね！',
                 required: true,
                 choices: [
@@ -71,7 +71,7 @@ const commands = [
         options: [
             {
                 name: 'モード',
-                type: 3,
+                type: 3, 
                 description: '確認したいモードを選んでね！',
                 required: true,
                 choices: [
@@ -114,7 +114,7 @@ export async function registerCommands(client) {
 export async function handleCommand(interaction) {
     if (interaction.commandName === 'gamestart') {
         if (gameInProgress) {
-            await interaction.reply('すでに進行中です');
+            await interaction.reply('すでに始まってます');
             return;
         }
 
@@ -128,8 +128,8 @@ export async function handleCommand(interaction) {
             const { imagePath, link, location, answer } = await getRandomStreetViewImage(region);
             const embed = new EmbedBuilder()
                 .setTitle('Deviterreの場所当てゲーム')
-                .setImage('attachment://streetview.png')
-                .setDescription(`この写真が撮影された国または地域を答えてね！\n__**地域か市区町村まで答えると得点が高くなるよ！**__`);
+                .setDescription(`この場所がどこか答えてね！\n__**地域か市区町村まで答えると得点が高くなるよ！**__`)
+                .setImage(`attachment://${imagePath}`);
 
             currentAnswers = answer.map(ans => ans.toLowerCase());
             currentLocation = location;
@@ -142,8 +142,6 @@ export async function handleCommand(interaction) {
                 files: [{ attachment: imagePath, name: 'streetview.png' }]
             });
 
-            await fs.unlink(imagePath);
-
             console.log(`Answers for this round: ${currentAnswers.join(', ')}`);
         } catch (error) {
             console.error('Error fetching street view image:', error);
@@ -152,8 +150,7 @@ export async function handleCommand(interaction) {
             } else {
                 await interaction.reply('ストリートビューの画像を取得できませんでした');
             }
-            gameInProgress = false;
-            console.log('Game ended due to error');
+            gameInProgress = false; 
         }
     } else if (interaction.commandName === 'score') {
         const mode = interaction.options.getString('モード');
@@ -194,97 +191,42 @@ export async function handleCommand(interaction) {
             );
 
             const embed = new EmbedBuilder()
-                .setTitle(`得点ランキングTOP10 (${mode === 'japan' ? '日本' : '世界'})`)
-                .setDescription(leaderboard.length > 0 ? leaderboard.join('\n') : 'ランキングのデータを取得できません');
+                .setTitle(`${mode === 'japan' ? '日本' : '世界'}モードの得点ランキングTOP10`)
+                .setDescription(leaderboard.join('\n'));
 
             await interaction.reply({ embeds: [embed] });
         } catch (error) {
-            console.error('Error generating leaderboard:', error);
-            await interaction.reply('ランキングが正常に作成できませんでした');
+            console.error('Error fetching leaderboard:', error);
+            await interaction.reply('ランキングの取得中にエラーが発生しました');
         }
     } else if (interaction.commandName === 'reset') {
-        if (interaction.member.roles.cache.has(ADMIN_ROLE_ID)) {
-            userScores = { japan: {}, world: {} };
-
-            const embed = new EmbedBuilder()
-                .setTitle('全員の得点をリセットしました');
-
-            await interaction.reply({ embeds: [embed] });
-
-            console.log('All user scores have been reset.');
-        } else {
-            await interaction.reply('このコマンドを実行する権限がありません');
+        if (!interaction.member.roles.cache.has(ADMIN_ROLE_ID)) {
+            await interaction.reply('このコマンドを使用する権限がありません');
+            return;
         }
+
+        userScores = { japan: {}, world: {} };
+        await interaction.reply('全員の得点がリセットされました');
     }
 }
 
 export async function handleGuess(message) {
-    if (!currentAnswers || correctUser || !currentMode) return;
-
-    if (message.channel.id !== GUESS_CHANNEL_ID) {
-        return;
-    }
-
-    console.log('handleGuess called with message:', message.content);
-    console.log('Current answers:', currentAnswers);
-    console.log('Message reference:', message.reference ? message.reference.messageId : 'No reference');
-    console.log('Current question message ID:', currentQuestionMessage.id);
-    console.log('Game in progress:', gameInProgress);
+    if (!gameInProgress) return;
 
     const guess = message.content.trim().toLowerCase();
-    console.log('User guess:', guess);
+    const userId = message.author.id;
+    const isCorrect = currentAnswers.some(answer => guess.includes(answer));
 
-    const guessWords = guess.split(/\s+/);
-    const validGuesses = guessWords.filter(word => currentAnswers.includes(word));
-    if (validGuesses.length > 1) {
-        await message.reply('※回答できるのは1メッセージにつき1つです');
-        return;
-    }
+    if (isCorrect && !correctUser) {
+        correctUser = message.author;
 
-    const answerIndex = currentAnswers.findIndex(answer => guess.includes(answer));
-    console.log('Answer index:', answerIndex);
-
-    let scoreToAdd = 0;
-    if (answerIndex !== -1) {
-        scoreToAdd = answerIndex + 1;
-    }
-
-    if (message.reference && message.reference.messageId === currentQuestionMessage.id) {
-        if (scoreToAdd > 0) {
-            correctUser = message.author;
-
-            if (!userScores[currentMode]) {
-                userScores[currentMode] = {};
+        const scoreToAdd = currentAnswers.reduce((acc, answer, index) => {
+            if (guess.includes(answer)) {
+                return acc + (index === 2 ? 3 : index === 1 ? 2 : 1);
             }
-            const userId = correctUser.id;
-            if (!userScores[currentMode][userId]) {
-                userScores[currentMode][userId] = 0;
-            }
-            userScores[currentMode][userId] += scoreToAdd;
+            return acc;
+        }, 0);
 
-            const embed = new EmbedBuilder()
-                .setTitle('正解！')
-                .setDescription(`${correctUser}さんが一番乗りで正解したよ！\n__**答えはここ： ${currentLocation}**__\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`);
-
-            await message.channel.send({ embeds: [embed] });
-
-            // ゲームデータをリセット
-            currentAnswers = null;
-            currentLocation = null;
-            currentLink = null;
-            currentQuestionMessage = null;
-            correctUser = null;
-            currentMode = null;
-            gameInProgress = false;
-            console.log('Game ended successfully');
-        } else {
-            await message.react('❌');
-        }
-    } else if (scoreToAdd > 0) {
-        if (!userScores[currentMode]) {
-            userScores[currentMode] = {};
-        }
-        const userId = message.author.id;
         if (!userScores[currentMode][userId]) {
             userScores[currentMode][userId] = 0;
         }
@@ -292,37 +234,22 @@ export async function handleGuess(message) {
 
         const embed = new EmbedBuilder()
             .setTitle('正解！')
-            .setDescription(`${message.author}さんが一番乗りで正解したよ！\n__**答えはここ： ${currentLocation}**__\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`);
+            .setDescription(`${message.author.username}さんが正解したよ！\n答えはここ: ${currentLocation}\n[Google Mapsで確認しよう！](${link})\n\n${scoreToAdd}点獲得！`)
+            .setColor('GREEN');
 
         await message.channel.send({ embeds: [embed] });
-        // ゲームデータをリセット
+
+        console.log(`Correct guess by ${message.author.username}. Score added: ${scoreToAdd}`);
+        
+        gameInProgress = false;
         currentAnswers = null;
+        correctUser = null;
         currentLocation = null;
         currentLink = null;
         currentQuestionMessage = null;
-        correctUser = null;
         currentMode = null;
-        gameInProgress = false;
-    } else {
-        await message.react('❌');
-    }
-}
-
-export async function saveScores() {
-    try {
-        await fs.writeFile('userScores.json', JSON.stringify(userScores, null, 2));
-        console.log('User scores saved successfully.');
-    } catch (error) {
-        console.error('Error saving user scores:', error);
-    }
-}
-
-export async function loadScores() {
-    try {
-        const data = await fs.readFile('userScores.json', 'utf-8');
-        userScores = JSON.parse(data);
-        console.log('User scores loaded successfully.');
-    } catch (error) {
-        console.error('Error loading user scores:', error);
+        
+    } else if (!isCorrect && guess.split(' ').length > 1) {
+        await message.channel.send('回答できるのは1メッセージにつき1つです');
     }
 }
