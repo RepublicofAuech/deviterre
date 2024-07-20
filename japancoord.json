@@ -32,27 +32,27 @@
     {
         "link": "https://maps.app.goo.gl/oFMRcPWbUwQk5Ye26",
         "location": "函館市（北海道）",
-        "answer": ["東北", "北海道", "函館"]
+        "answer": ["北海道地方", "北海道", "函館"]
     },
     {
         "link": "https://maps.app.goo.gl/3jixRahv26ybFVv38",
         "location": "根室市（北海道）",
-        "answer": ["東北", "北海道", "根室"]
+        "answer": ["北海道地方", "北海道", "根室"]
     },
     {
         "link": "https://maps.app.goo.gl/zHvy3GtHe7XJZgc87",
         "location": "旭川市（北海道）",
-        "answer": ["東北", "北海道", "旭川"]
+        "answer": ["北海道地方", "北海道", "旭川"]
     },
     {
         "link": "https://maps.app.goo.gl/vpCUn1LrAsk291HS8",
         "location": "釧路市（北海道）",
-        "answer": ["東北", "北海道", "釧路"]
+        "answer": ["北海道地方", "北海道", "釧路"]
     },
     {
         "link": "https://maps.app.goo.gl/R5sNqtqn845vj8zV8",
         "location": "帯広市（北海道）",
-        "answer": ["東北", "北海道", "帯広"]
+        "answer": ["北海道地方", "北海道", "帯広"]
     },
     {
         "link": "https://maps.app.goo.gl/anWvPjuwN4XZFLrF9",
@@ -477,12 +477,12 @@
     {
         "link": "https://maps.app.goo.gl/8wNfR5GpXAzpnA8L8",
         "location": "札幌市（北海道）",
-        "answer": ["東北","北海道","札幌"]
+        "answer": ["北海道地方","北海道","札幌"]
     },
     {
         "link": "https://maps.app.goo.gl/AXHVLubhNj4j9L3p7",
         "location": "稚内市（北海道）",
-        "answer": ["東北","北海道","稚内"]
+        "answer": ["北海道地方","北海道","稚内"]
     },
     {
         "link": "https://maps.app.goo.gl/2BnhCNjRmpKbzHiF7",
