@@ -234,7 +234,7 @@ export async function handleGuess(message) {
 
         const embed = new EmbedBuilder()
             .setTitle('正解！')
-            .setDescription(`${message.author.username}さんが正解したよ！\n答えはここ: ${currentLocation}\n[Google Mapsで確認しよう！](${link})\n\n${scoreToAdd}点獲得！`)
+            .setDescription(`${message.author.username}さんが正解したよ！\n答えはここ: ${currentLocation}\n[Google Mapsで確認しよう！](${currentLink})\n\n${scoreToAdd}点獲得！`)
             .setColor('GREEN');
 
         await message.channel.send({ embeds: [embed] });
