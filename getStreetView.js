@@ -11,6 +11,20 @@ async function loadLinksFromFile(filePath) {
     }
 }
 
+async function navigateWithRetry(page, url, retries = 3) {
+    for (let i = 0; i < retries; i++) {
+        try {
+            await page.goto(url, { waitUntil: 'networkidle2' });
+            return;
+        } catch (error) {
+            console.error(`Navigation to ${url} failed on attempt ${i + 1}:`, error);
+            if (i === retries - 1) {
+                throw error; // Re-throw the error if all retries fail
+            }
+        }
+    }
+}
+
 export async function getRandomStreetViewImage(region) {
     const filePath = region === 'japan' ? 'japancoord.json' : 'worldcoord.json';
     const links = await loadLinksFromFile(filePath);
