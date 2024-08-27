@@ -1,4 +1,4 @@
-async function getRandomStreetViewImage(region) {
+export async function getRandomStreetViewImage(region) {
     const filePath = region === 'japan' ? 'japancoord.json' : 'worldcoord.json';
     const links = await loadLinksFromFile(filePath);
     const browser = await puppeteer.launch({
