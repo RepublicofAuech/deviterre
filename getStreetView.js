@@ -1,3 +1,4 @@
+import puppeteer from 'puppeteer';
 import fs from 'fs/promises';
 
 async function loadLinksFromFile(filePath) {
