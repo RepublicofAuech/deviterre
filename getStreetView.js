@@ -1,3 +1,15 @@
+import fs from 'fs/promises';
+
+async function loadLinksFromFile(filePath) {
+    try {
+        const data = await fs.readFile(filePath, 'utf8');
+        return JSON.parse(data);
+    } catch (error) {
+        console.error(`Failed to load links from ${filePath}:`, error);
+        throw error;
+    }
+}
+
 export async function getRandomStreetViewImage(region) {
     const filePath = region === 'japan' ? 'japancoord.json' : 'worldcoord.json';
     const links = await loadLinksFromFile(filePath);
